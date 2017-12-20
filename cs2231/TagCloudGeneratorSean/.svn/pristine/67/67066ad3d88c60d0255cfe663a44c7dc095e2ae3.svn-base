@@ -1,0 +1,337 @@
+import java.util.Comparator;
+
+import components.map.Map;
+import components.map.Map.Pair;
+import components.map.Map1L;
+import components.set.Set;
+import components.set.Set2;
+import components.simplereader.SimpleReader;
+import components.simplereader.SimpleReader1L;
+import components.simplewriter.SimpleWriter;
+import components.simplewriter.SimpleWriter1L;
+import components.sortingmachine.SortingMachine;
+import components.sortingmachine.SortingMachine1L;
+
+public final class TagCloudGenerator {
+
+    /**
+     * Default constructor--private to prevent instantiation.
+     */
+    private TagCloudGenerator() {
+        // no code needed here
+    }
+
+    private static Set<Character> separators() {
+        // creating a constructor and adding characters which will be
+        // considered as a separator
+        Set<Character> separators = new Set2<>();
+        separators.add(' ');
+        separators.add('?');
+        separators.add(',');
+        separators.add('.');
+        separators.add(':');
+        separators.add(';');
+        separators.add('/');
+        separators.add('-');
+        separators.add('!');
+        separators.add('(');
+        separators.add(')');
+        separators.add('"');
+        separators.add('`');
+        separators.add('*');
+        separators.add('\'');
+        separators.add('[');
+        separators.add(']');
+        separators.add('_');
+        separators.add('\n');
+        separators.add('\0');
+
+        return separators;
+    }
+
+    /**
+     * Outputs the header tags for the HTML file.
+     *
+     * @param out
+     *            file to edit
+     * @param fileName
+     *            name of the file
+     * @requires out is not blank or null
+     * @ensures print statements are forwarded to the file
+     *
+     *
+     */
+    public static void header(SimpleWriter out, String fileName) {
+        // outputs these to the file
+        out.println("<html>");
+        out.println("<head>");
+        out.println("<link rel=\"stylesheet\" href=\"./tagcloud.css\">");
+        //        out.println("<title>");
+        //        out.println("Top 100 words in " + fileName);
+        //        out.println("</title>");
+        out.println("</head>");
+        out.println("<body>");
+        out.println("Top 100 words in " + fileName);
+    }
+
+    /**
+     * Reads the text file and returns it as a String format.
+     *
+     * @ensures text file is read and assigned to a String variable
+     * @param in
+     *            file to read
+     * @return text
+     */
+    public static String returnWord(SimpleReader in) {
+        StringBuilder text = new StringBuilder();
+        // while the input stream has not end, append each line with a space at
+        // the end to the StringBuilder variable "text"
+        while (!in.atEOS()) {
+            text.append(in.nextLine().toLowerCase() + " ");
+        }
+        // converts text to a String and returns it
+        return text.toString();
+    }
+
+    /**
+     * Decide whether if the returned String from nextWordOrSeperator is a word
+     * or a separator. Then checks to see if the word exist in the Map. If yes,
+     * increase its value by 1. If not, add word with counter 1.
+     *
+     * @param returnedWord
+     *            text to read from
+     *
+     * @requires |returnedWord| > 0
+     * @ensures word is added into Map or counter is updated
+     * @return Map
+     */
+    public static Map<String, Integer> mapEntries(String returnedWord) {
+        Map<String, Integer> wordCounter = new Map1L<>();
+        Pair<String, Integer> temp;
+        Set<Character> checkSep = separators();
+        // copies the text in "returnedWord" into "wordText" and creates an int
+        // variable "position" with value 0
+        String wordText = returnedWord;
+        int position = 0;
+        // while the value of position is less or equals to the length of the
+        // text -1
+        while (position <= wordText.length() - 1) {
+            // calls the method nextWordOrSeperator to check if the word is a
+            // word or separator and returns either the word or a separator and
+            // the position of the last read character to the Map "returnFrom"
+            Map<String, Integer> returnFrom = nextWordOrSeperator(wordText,
+                    position, wordText.length());
+            // removes the pair and assigns it to Pair "toUse"
+            Pair<String, Integer> toUse = returnFrom.removeAny();
+            // converts the key of "wordToUse" to all lower case
+            String wordToUse = toUse.key().toLowerCase();
+            // assigns the value of "toUse" to position
+            position = toUse.value();
+            // if the first character of wholeText does not contains a separator
+            if (!checkSep.contains(wordToUse.charAt(0))) {
+                // create boolean with value false
+                boolean condition = false;
+                // calls the method "duplicateWord" to check if word already
+                // exists in the map and replaces the returned boolean value in
+                // condition
+                condition = duplicateWord(wordCounter, wordToUse.toLowerCase());
+                // if condition is false
+                if (!condition) {
+                    // add the word to the Map "wordCounter" with its value 1
+                    wordCounter.add(wordToUse.toLowerCase(), 1);
+                } else {
+                    // if condition is true, remove the Pair which the key is
+                    // the word and assined to Pair "temp"
+                    temp = wordCounter.remove(wordToUse);
+                    // adds the Pair into a Map "wordCounter" with word as the
+                    // key and the value of the previous key + 1
+                    wordCounter.add(temp.key().toLowerCase(), temp.value() + 1);
+                }
+            }
+        }
+        // returns the completed Map with all words and its counts
+        return wordCounter;
+    }
+
+    /**
+     * Reads a text file and returns either a separator or a word and the
+     * position of the last read character in a form of a Map.
+     *
+     * @param text
+     *            text to read
+     * @param position
+     *            position to start reading the text from
+     * @param totalLength
+     *            length of text
+     *
+     * @requires |text| > 0
+     * @ensures word or separator is found
+     * @return Map
+     */
+    public static Map<String, Integer> nextWordOrSeperator(String text,
+            int position, int totalLength) {
+        Set<Character> checkSep = separators();
+        StringBuilder lel = new StringBuilder();
+        Map<String, Integer> lol = new Map1L<>();
+        // copies the text into a new variable "wholeText"
+        String wholeText = text.toLowerCase();
+        // copies the position into a new variable "counter"
+        int counter = position;
+        // if the character at counter in wholeText contains a separator
+        if (checkSep.contains(wholeText.charAt(counter))) {
+            // appends the character to the StringBuilder "lel"
+            lel.append(wholeText.charAt(counter));
+            // increments counter
+            counter++;
+        } else {
+            // if not, if counter is less or equals to the length of the text -1
+            if (counter <= totalLength - 1) {
+                // while the character at counter in wholeText does not
+                // contain a separator
+                while (!checkSep.contains(wholeText.charAt(counter))) {
+                    //// appends the character to the StringBuilder "lel"
+                    lel.append(wholeText.charAt(counter));
+                    // increments counter
+                    counter++;
+                }
+            }
+        }
+        // converts StringBuilder "lel" to a String
+        String word = lel.toString();
+        // adds the word and its counter to the Map "lol" and returns it
+        lol.add(word.toLowerCase(), counter);
+        return lol;
+    }
+
+    /**
+     * To check if the word is inside the Map or not.
+     *
+     * @param wordCount
+     *            the Map to check from
+     * @param word
+     *            the word to check
+     *
+     * @requires |word| != 0
+     * @ensures word is checked in the Map
+     * @return boolean
+     */
+    public static boolean duplicateWord(Map<String, Integer> wordCount,
+            String word) {
+        // returns a boolean value depending on if the word exists in the Map
+        return wordCount.hasKey(word.toLowerCase());
+    }
+
+    /**
+     * Compares {@code String}s in lexicographic order.
+     */
+    private static class StringLT implements Comparator<String> {
+        @Override
+        public int compare(String o1, String o2) {
+            return o1.compareTo(o2);
+        }
+    }
+
+    private static class IntegerLT implements Comparator<Integer> {
+        @Override
+        public int compare(Integer o1, Integer o2) {
+            if (o1 > o2) {
+                return -1;
+            } else if (o1 < o2) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }
+    }
+
+    public static Map<String, Integer> firstSort(
+            Map<String, Integer> wordCounter, int n) {
+        // TO-DO
+        Comparator<Integer> ci = new IntegerLT();
+        SortingMachine<Integer> sort = new SortingMachine1L<>(ci);
+        Map<String, Integer> secondMap = wordCounter.newInstance();
+        Map<String, Integer> abc = wordCounter.newInstance();
+
+        while (wordCounter.size() > 0) {
+            Pair<String, Integer> tempPair = wordCounter.removeAny();
+            sort.add(tempPair.value());
+            secondMap.add(tempPair.key(), tempPair.value());
+        }
+        System.out.println(secondMap.toString());
+        sort.changeToExtractionMode();
+        for (int i = 0; i < n; i++) {
+            int tempValue = sort.removeFirst();
+            System.out.println(secondMap.key(tempValue));
+            System.out.println(tempValue);
+            // Causing error. Needs fixing.
+            abc.add(secondMap.key(tempValue), tempValue);
+        }
+
+        return abc;
+    }
+
+    /**
+     * Outputs the footer tags for the HTML file.
+     *
+     *
+     * @param out
+     *            outputs to the current text
+     */
+    public static void footer(SimpleWriter out) {
+        // outputs these into the file
+        out.println("</body>");
+        out.println("</html>");
+        out.close();
+    }
+
+    /**
+     * Main method.
+     *
+     * @param args
+     *            the command line arguments; unused here
+     */
+    public static void main(String[] args) {
+        SimpleReader in = new SimpleReader1L();
+        SimpleWriter out = new SimpleWriter1L();
+
+        // Prompts the user to input the file name including the file path and
+        // extension
+        out.println(
+                "Input the file name with the save path and file extension.");
+        out.println("Example: data/example.txt");
+        // Saves the input into a String
+        String fileName = in.nextLine();
+        SimpleReader fileIn = new SimpleReader1L(fileName);
+
+        // Prompts the user to input tjhe save file name, path and extension.
+        out.println(
+                "Input the output file name with the save path and file extension.");
+        out.println("Example: data/example.html");
+        // Saves the input into a String
+        String outFileName = in.nextLine();
+        SimpleWriter fileSave = new SimpleWriter1L(outFileName);
+
+        // Prompts the user to input the maximum number of tags
+        out.print("Please input the maximum number of tags: ");
+        int maxTag = in.nextInteger();
+
+        // calls methods to carry about program
+        // calling the method to start a header for the HTML
+        header(fileSave, outFileName);
+        // calling the method to return the text file as a String
+        String returnedWord = returnWord(fileIn);
+        // calling the method to check if the next word is a word or a
+        // separator and returns a map with the word its counts
+        Map<String, Integer> wordCounter = mapEntries(returnedWord);
+        // calling a method to sort the map in an alphabetical order and
+        // returns a Queue
+        Map<String, Integer> abcKeys = firstSort(wordCounter, maxTag);
+        // calling the method to end the HTML file
+        footer(fileSave);
+
+        in.close();
+        out.close();
+
+    }
+
+}

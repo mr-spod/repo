@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>
+Top 2 words in data/twowords.txt
+</title>
+<link href="http://cse.osu.edu/software/2231/web-sw2/assignments/projects/tag-cloud-generator/data/tagcloud.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h2>Top 2 words in data/twowords.txt</h2>
+<hr>
+<div class="cdiv">
+<p class="cbox">
+<span style="cursor:default" class="f48" title="count: 2">other</span>
+<span style="cursor:default" class="f48" title="count: 2">word</span>
+</p>
+</div>
+</body>
+</html>

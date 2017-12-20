@@ -1,0 +1,18 @@
+PROGRAM Test3 IS
+
+  INSTRUCTION TurnRightTwice IS
+     turnright
+	turnright
+  END TurnRightTwice 
+  
+  INSTRUCTION TurnLeftThenMove IS
+    turnleft
+    move
+  END TurnLeftThenMove 
+
+BEGIN
+  WHILE true DO
+    TurnLeftThenMove 
+    TurnRightTwice
+  END WHILE
+END Test3

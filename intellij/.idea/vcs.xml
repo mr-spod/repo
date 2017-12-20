@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../cs2231/ArraySiftDown" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/BinaryTreeMethods" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/HashingExperiments" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/ListWithRetreat" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/ListWithTwoSmartNodes" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/MapOnQueue" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/MapWithHashing" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/NaturalNumberOnString" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/QueueInsertionSort" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/QueueOnSequence" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/QueueQuicksort" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/SequenceOnStack" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/SetOnBST" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/SetOnQueue" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/SortingMachineWithHeapsort" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../cs2231/StatementCountPrimitiveCalls" vcs="svn" />
+  </component>
+</project>

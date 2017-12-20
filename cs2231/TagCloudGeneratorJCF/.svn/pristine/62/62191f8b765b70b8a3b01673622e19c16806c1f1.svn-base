@@ -1,0 +1,16 @@
+<html>
+<head>
+<link rel="stylesheet" href="./tagcloud.css">
+<title>
+Top 150 words in data/empty.txt
+</title>
+</head>
+<body>
+<h2>Top 150 words in data/empty.txt</h2>
+<hr>
+<div class="cdiv">
+<p class="cbox">
+</p>
+</div>
+</body>
+</html>

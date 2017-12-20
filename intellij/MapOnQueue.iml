@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <varelement var="file://$OSU_CSE_LIBRARY$" value="OSU_CSE_LIBRARY" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/../cs2231/MapOnQueue/src" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/../cs2231/MapOnQueue/test" expected_position="1" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../cs2231/MapOnQueue/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../cs2231/MapOnQueue">
+      <sourceFolder url="file://$MODULE_DIR$/../cs2231/MapOnQueue/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../cs2231/MapOnQueue/test" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="OSU_CSE_LIBRARY">
+        <CLASSES>
+          <root url="file://$OSU_CSE_LIBRARY$" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="http://web.cse.ohio-state.edu/software/common/doc" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="junit4">
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="components" level="project" />
+  </component>
+</module>

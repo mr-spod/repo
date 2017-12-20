@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/../cs2231/BinaryTreeMethods/lib/binary-tree-utility.jar!/" />
+    <varelement var="file://$OSU_CSE_LIBRARY$" value="OSU_CSE_LIBRARY" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/../cs2231/ArraySiftDown/src" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/../cs2231/ArraySiftDown/test" expected_position="1" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../cs2231/ArraySiftDown/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../cs2231/ArraySiftDown">
+      <sourceFolder url="file://$MODULE_DIR$/../cs2231/ArraySiftDown/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../cs2231/ArraySiftDown/test" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="OSU_CSE_LIBRARY">
+        <CLASSES>
+          <root url="file://$OSU_CSE_LIBRARY$" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="http://web.cse.ohio-state.edu/software/common/doc" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="junit4">
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="binary-tree-utility.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../cs2231/BinaryTreeMethods/lib/binary-tree-utility.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="components" level="project" />
+  </component>
+</module>

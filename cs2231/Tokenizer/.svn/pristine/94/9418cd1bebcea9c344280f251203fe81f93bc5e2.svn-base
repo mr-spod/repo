@@ -1,0 +1,28 @@
+ERROR     : <PROGRAM SampleProgram IS>
+ERROR     : <>
+ERROR     : <    INSTRUCTION FindObstacle IS>
+ERROR     : <        WHILE next-is-empty DO>
+ERROR     : <            move>
+ERROR     : <        END WHILE>
+ERROR     : <    END FindObstacle>
+ERROR     : <>
+ERROR     : <    INSTRUCTION TurnAround IS>
+ERROR     : <        turnright>
+ERROR     : <        turnright>
+ERROR     : <    END TurnAround>
+ERROR     : <>
+KEYWORD   : <BEGIN>
+ERROR     : <    WHILE true DO>
+ERROR     : <        FindObstacle>
+ERROR     : <        IF next-is-enemy THEN>
+ERROR     : <            infect>
+ERROR     : <        ELSE>
+ERROR     : <            IF next-is-wall THEN>
+ERROR     : <                turnleft>
+ERROR     : <            ELSE>
+ERROR     : <                TurnAround>
+ERROR     : <            END IF>
+ERROR     : <        END IF>
+ERROR     : <    END WHILE>
+ERROR     : <END SampleProgram>
+ERROR     : <### END OF INPUT ###>

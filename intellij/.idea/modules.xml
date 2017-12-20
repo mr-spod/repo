@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArraySiftDown.iml" filepath="$PROJECT_DIR$/ArraySiftDown.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinaryTreeMethods.iml" filepath="$PROJECT_DIR$/BinaryTreeMethods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashingExperiments.iml" filepath="$PROJECT_DIR$/HashingExperiments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JUnitTestingRevisited.iml" filepath="$PROJECT_DIR$/JUnitTestingRevisited.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListWithRetreat.iml" filepath="$PROJECT_DIR$/ListWithRetreat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListWithTwoSmartNodes.iml" filepath="$PROJECT_DIR$/ListWithTwoSmartNodes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapOnQueue.iml" filepath="$PROJECT_DIR$/MapOnQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapWithHashing.iml" filepath="$PROJECT_DIR$/MapWithHashing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NaturalNumberOnString.iml" filepath="$PROJECT_DIR$/NaturalNumberOnString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgramPrettyPrint.iml" filepath="$PROJECT_DIR$/ProgramPrettyPrint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectTemplate.iml" filepath="$PROJECT_DIR$/ProjectTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectTemplate2.iml" filepath="$PROJECT_DIR$/ProjectTemplate2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueueInsertionSort.iml" filepath="$PROJECT_DIR$/QueueInsertionSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueueOnSequence.iml" filepath="$PROJECT_DIR$/QueueOnSequence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueueQuicksort.iml" filepath="$PROJECT_DIR$/QueueQuicksort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SequenceOnStack.iml" filepath="$PROJECT_DIR$/SequenceOnStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SequenceSmooth.iml" filepath="$PROJECT_DIR$/SequenceSmooth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SetOnBST.iml" filepath="$PROJECT_DIR$/SetOnBST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SetOnQueue.iml" filepath="$PROJECT_DIR$/SetOnQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SetOnQueueMe.iml" filepath="$PROJECT_DIR$/SetOnQueueMe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SetOnQueueMine.iml" filepath="$PROJECT_DIR$/SetOnQueueMine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortingMachineWithHeapsort.iml" filepath="$PROJECT_DIR$/SortingMachineWithHeapsort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackWithLinkedList.iml" filepath="$PROJECT_DIR$/StackWithLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StatementCountPrimitiveCalls.iml" filepath="$PROJECT_DIR$/StatementCountPrimitiveCalls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WordCounter.iml" filepath="$PROJECT_DIR$/WordCounter.iml" />
+    </modules>
+  </component>
+</project>

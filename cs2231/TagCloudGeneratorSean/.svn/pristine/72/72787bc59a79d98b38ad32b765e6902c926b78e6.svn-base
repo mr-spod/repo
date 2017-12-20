@@ -1,0 +1,373 @@
+import java.util.Comparator;
+
+import components.map.Map;
+import components.queue.Queue1L;
+import components.queue.Queue;
+import components.map.Map.Pair;
+import components.map.Map1L;
+import components.set.Set;
+import components.set.Set2;
+import components.simplereader.SimpleReader;
+import components.simplereader.SimpleReader1L;
+import components.simplewriter.SimpleWriter;
+import components.simplewriter.SimpleWriter1L;
+import components.sortingmachine.SortingMachine;
+import components.sortingmachine.SortingMachine1L;
+
+public final class TagCloudGenerator {
+
+    /**
+     * Default constructor--private to prevent instantiation.
+     */
+    private TagCloudGenerator() {
+        // no code needed here
+    }
+
+    private static Set<Character> separators() {
+        // creating a constructor and adding characters which will be
+        // considered as a separator
+        Set<Character> separators = new Set2<>();
+        separators.add(' ');
+        separators.add('?');
+        separators.add(',');
+        separators.add('.');
+        separators.add(':');
+        separators.add(';');
+        separators.add('/');
+        separators.add('-');
+        separators.add('!');
+        separators.add('(');
+        separators.add(')');
+        separators.add('"');
+        separators.add('`');
+        separators.add('*');
+        separators.add('\'');
+        separators.add('[');
+        separators.add(']');
+        separators.add('_');
+        separators.add('\n');
+        separators.add('\t');
+        separators.add('\0');
+
+        return separators;
+    }
+    
+    private static int minCount;
+    private static int maxCount;
+
+    /**
+     * Outputs the header tags for the HTML file.
+     *
+     * @param out
+     *            file to edit
+     * @param fileName
+     *            name of the file
+     * @requires out is not blank or null
+     * @ensures print statements are forwarded to the file
+     *
+     *
+     */
+    public static void header(SimpleWriter out, String fileName) {
+        // outputs these to the file
+        out.println("<html>");
+        out.println("<head>");
+        out.println("<link rel=\"stylesheet\" href=\"./tagcloud.css\">");
+        //        out.println("<title>");
+        //        out.println("Top 100 words in " + fileName);
+        //        out.println("</title>");
+        out.println("</head>");
+        out.println("<body>");
+        out.println("<h2>Top 100 words in " + fileName + "</h2>");
+        out.println("<hr>");
+        out.println("<div class=\"cdiv\">");
+        out.println("<p class=\"cbox\">");
+    }
+
+    /**
+     * Reads the text file and returns it as a String format.
+     *
+     * @ensures text file is read and assigned to a String variable
+     * @param in
+     *            file to read
+     * @return text
+     */
+    public static String returnWord(SimpleReader in) {
+        StringBuilder text = new StringBuilder();
+        // while the input stream has not end, append each line with a space at
+        // the end to the StringBuilder variable "text"
+        while (!in.atEOS()) {
+            text.append(in.nextLine().toLowerCase() + " ");
+        }
+        // converts text to a String and returns it
+        return text.toString();
+    }
+
+    /**
+     * Decide whether if the returned String from nextWordOrSeperator is a word
+     * or a separator. Then checks to see if the word exist in the Map. If yes,
+     * increase its value by 1. If not, add word with counter 1.
+     *
+     * @param returnedWord
+     *            text to read from
+     *
+     * @requires |returnedWord| > 0
+     * @ensures word is added into Map or counter is updated
+     * @return Map
+     */
+    public static Map<String, Integer> mapEntries(String fullText) {
+        Map<String, Integer> wordCounter = new Map1L<>();
+        Set<Character> checkSep = separators();
+        int position = 0;
+        // while the value of position is less or equals to the length of the
+        // text -1
+        while (position <= fullText.length() - 1) {
+            // calls the method nextWordOrSeperator to check if the word is a
+            // word or separator and returns either the word or a separator and
+            // the position of the last read character to the Map "returnFrom"
+            String next = nextWordOrSeperator(fullText.substring(position));
+            
+            position += next.length();
+            
+            if (!checkSep.contains(next.charAt(0))) {
+            		// we have a word
+            		if (wordCounter.hasKey(next)) {
+            			int count = wordCounter.value(next);
+            			count++;
+            			wordCounter.replaceValue(next, count);
+            		} else {
+            			wordCounter.add(next, 1);
+            		}
+            }
+            
+        }
+        // returns the completed Map with all words and its counts
+        return wordCounter;
+    }
+    
+    /**
+     * Reads a text file and returns either a separator or a word and the
+     * position of the last read character in a form of a Map.
+     *
+     * @param text
+     *            text to read
+     * @param position
+     *            position to start reading the text from
+     * @param totalLength
+     *            length of text
+     *
+     * @requires |text| > 0
+     * @ensures word or separator is found
+     * @return Map
+     */
+    public static String nextWordOrSeperator(String s) {
+		String answer = "";
+		if (s.length() > 0) {
+			// Index variable to read s char by char
+    		int readIndex = 0;
+    		// Boolean flag used to stop the following while loop
+			boolean atEndOfNext = false;
+			// Stop loop if readIndex reaches end of s (or flag is set)
+    		while (readIndex < s.length() && !atEndOfNext) {
+    			if (separators().contains(s.charAt(readIndex))) {
+    				// Increment readIndex if the char of s at that index is a separator
+    				readIndex++;
+    			} else {
+    				// Otherwise, stop the loop
+    				atEndOfNext = true;
+    			}
+    		}
+    		if (readIndex == 0) {
+    			/*
+    			 *  Bring readIndex to end of the following word since the readIndex hasn't increased
+    			 */
+    			
+    			// Reset flag variable
+    			atEndOfNext = false;
+    			// Stop loop if readIndex reaches end of s (or flag is set)
+    			while (readIndex < s.length() && !atEndOfNext) {
+    				if (!separators().contains(s.charAt(readIndex))) {
+        				// Increment readIndex if the char of s at that index is not a separator
+    					readIndex++;
+    				} else {
+    					// Otherwise, stop the loop
+    					atEndOfNext = true;
+    				}
+    			}
+    		}
+    		// The next word/separator is s[0, readIndex)
+    		answer = s.substring(0, readIndex);
+		}
+		return answer;
+    }
+
+    /**
+     * To check if the word is inside the Map or not.
+     *
+     * @param wordCount
+     *            the Map to check from
+     * @param word
+     *            the word to check
+     *
+     * @requires |word| != 0
+     * @ensures word is checked in the Map
+     * @return boolean
+     */
+    public static boolean duplicateWord(Map<String, Integer> wordCount,
+            String word) {
+        // returns a boolean value depending on if the word exists in the Map
+        return wordCount.hasKey(word.toLowerCase());
+    }
+
+    /**
+     * Compares {@code String}s in lexicographic order.
+     */
+    private static class StringLT implements Comparator<String> {
+        @Override
+        public int compare(String o1, String o2) {
+            return o1.compareTo(o2);
+        }
+    }
+
+    private static class IntegerLT implements Comparator<Integer> {
+        @Override
+        public int compare(Integer o1, Integer o2) {
+            if (o1 > o2) {
+                return -1;
+            } else if (o1 < o2) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }
+    }
+    
+    public static void reduce(Map<String, Integer> m, int max) {
+    		Map<String, Integer> reduced = m.newInstance();
+    		Map<String, Integer> copy = m.newInstance();
+    		Comparator<Integer> ci = new IntegerLT();
+        SortingMachine<Integer> sort = new SortingMachine1L<>(ci);
+    		while (m.size() > 0) {
+            Pair<String, Integer> tempPair = m.removeAny();
+            sort.add(tempPair.value());
+            copy.add(tempPair.key(), tempPair.value());
+        }
+    		sort.changeToExtractionMode();
+    		int i = max;
+    		while (i > 0) {
+    			int nextHighest = sort.removeFirst();
+    			String key = copy.key(nextHighest);
+    			reduced.add(key, nextHighest);
+    			copy.remove(key);
+    			if (i == max) {
+    				System.out.println("MAX : " + nextHighest);
+    				maxCount = nextHighest;
+    			} else if (i == 1) {
+    				System.out.println("MIN : " + nextHighest);
+    				minCount = nextHighest;
+    			}
+    			i--;
+    		}
+    		m.transferFrom(reduced);
+    }
+    
+    public static Queue<String> sortedKeys(Map<String, Integer> m) {
+    		Map<String, Integer> copy = m.newInstance();
+    		Queue<String> q = new Queue1L<String>();
+    		while (m.size() > 0) {
+    			Pair<String, Integer> p = m.removeAny();
+    			q.enqueue(p.key());
+    			copy.add(p.key(), p.value());
+    		}
+    		m.transferFrom(copy);
+    		q.sort(new StringLT());
+    		return q;
+    }
+    
+    public static void writeCloud(Map<String, Integer> m, Queue<String> q, SimpleWriter out) {
+		int countRange = maxCount - minCount;
+    		while (q.length() > 0) {
+    			String key = q.dequeue();
+    			int value = m.value(key);
+    			// do the calculation
+    			int offset = value - minCount;
+    			int fOffset = (offset * 37) / countRange;
+    			int fSize = 11 + fOffset;
+    			out.println("<span style=\"cursor:default\" class=\"f" + fSize + "\" title=\"count: " + value + "\">" + key + "</span>");
+    		}
+    }
+
+    /**
+     * Outputs the footer tags for the HTML file.
+     *
+     *
+     * @param out
+     *            outputs to the current text
+     */
+    public static void footer(SimpleWriter out) {
+        // outputs these into the file
+    		out.println("</p>");
+    		out.println("</div>");
+        out.println("</body>");
+        out.println("</html>");
+        out.close();
+    }
+
+    /**
+     * Main method.
+     *
+     * @param args
+     *            the command line arguments; unused here
+     */
+    public static void main(String[] args) {
+        SimpleReader in = new SimpleReader1L();
+        SimpleWriter out = new SimpleWriter1L();
+
+        // Prompts the user to input the file name including the file path and
+        // extension
+        out.println(
+                "Input the file name with the save path and file extension.");
+        out.println("Example: data/example.txt");
+        // Saves the input into a String
+        String fileName = in.nextLine();
+        SimpleReader fileIn = new SimpleReader1L(fileName);
+
+        // Prompts the user to input tjhe save file name, path and extension.
+        out.println(
+                "Input the output file name with the save path and file extension.");
+        out.println("Example: data/example.html");
+        // Saves the input into a String
+        String outFileName = in.nextLine();
+        SimpleWriter fileSave = new SimpleWriter1L(outFileName);
+
+        // Prompts the user to input the maximum number of tags
+        out.print("Please input the maximum number of tags: ");
+        int maxTag = in.nextInteger();
+
+        // calls methods to carry about program
+        // calling the method to start a header for the HTML
+        header(fileSave, fileName);
+        // calling the method to return the text file as a String
+        String returnedWord = returnWord(fileIn);
+        // calling the method to check if the next word is a word or a
+        // separator and returns a map with the word its counts
+        Map<String, Integer> wordCounter = mapEntries(returnedWord);
+        // calling a method to sort the map in an alphabetical order and
+        // returns a Queue
+//        Map<String, Integer> abcKeys = firstSort(wordCounter, maxTag);
+        
+        reduce(wordCounter, maxTag);
+        
+        Queue<String> sortedKeys = sortedKeys(wordCounter);
+        
+        writeCloud(wordCounter, sortedKeys, fileSave);
+        
+//        out.print(abcKeys);
+        // calling the method to end the HTML file
+        footer(fileSave);
+
+        in.close();
+        out.close();
+
+    }
+
+}
