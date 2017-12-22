@@ -7,7 +7,7 @@ target 'SampleApp' do
   pod 'AFNetworking'
   pod 'BlocksKit'
   pod 'RxSwift'
-  pod 'coinbase-official'
+  pod 'RxAlamofire'
   
   target 'SampleAppTests' do
     inherit! :search_paths
