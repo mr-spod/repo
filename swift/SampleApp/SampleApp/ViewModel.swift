@@ -10,4 +10,25 @@ import Foundation
 
 class ViewModel: NSObject {
     
+    override init() {
+        super.init()
+        print(configDictionary())
+    }
+    
+    private func configDictionary() -> Dictionary<String, AnyObject> {
+        var config = Dictionary<String, AnyObject>()
+        if let path = Bundle.main.path(forResource: "config", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
+                if let jsonResult = jsonResult as? Dictionary<String, AnyObject> {
+                    config = jsonResult
+                }
+            } catch {
+                
+            }
+        }
+        return config
+    }
+    
 }
