@@ -12,16 +12,16 @@ class ViewModel: NSObject {
     
     override init() {
         super.init()
-        print(configDictionary())
+        print(ViewModel.configDictionary())
     }
     
-    private func configDictionary() -> Dictionary<String, AnyObject> {
-        var config = Dictionary<String, AnyObject>()
+    public static func configDictionary() -> Dictionary<String, String> {
+        var config = Dictionary<String, String>()
         if let path = Bundle.main.path(forResource: "config", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-                if let jsonResult = jsonResult as? Dictionary<String, AnyObject> {
+                if let jsonResult = jsonResult as? Dictionary<String, String> {
                     config = jsonResult
                 }
             } catch {
@@ -30,5 +30,7 @@ class ViewModel: NSObject {
         }
         return config
     }
+    
+    
     
 }
