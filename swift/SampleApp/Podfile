@@ -8,6 +8,7 @@ target 'SampleApp' do
   pod 'BlocksKit'
   pod 'RxSwift'
   pod 'RxAlamofire'
+  pod 'DateTools'
   
   target 'SampleAppTests' do
     inherit! :search_paths
