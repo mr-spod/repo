@@ -8,12 +8,11 @@
 
 import Foundation
 import RxSwift
-import Alamofire
+import RxAlamofire
 
 class Api: NSObject {
-    public func bpiHistoricalData(fromDate: Date, toDate: Date) /*-> Observable<Dictionary<String, AnyObject>>*/ {
+    public static func bpiHistoricalData(fromDate: Date, toDate: Date) -> Observable<(HTTPURLResponse, Any)> {
         let config = ViewModel.configDictionary()
-        let url = URL(string: config["bpi_url"]!)
-        let req = Alamofire.request(url!)
+        return RxAlamofire.requestJSON(.get, config["bpi_url"]!)
     }
 }

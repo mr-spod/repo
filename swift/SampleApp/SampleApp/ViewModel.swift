@@ -10,6 +10,8 @@ import Foundation
 
 class ViewModel: NSObject {
     
+    public var bpiData: Dictionary<String, AnyObject>
+    
     override init() {
         super.init()
         print(ViewModel.configDictionary())
@@ -29,6 +31,10 @@ class ViewModel: NSObject {
             }
         }
         return config
+    }
+    
+    public func sixMonthsBack() {
+        Api.bpiHistoricalData(fromDate: , toDate: )
     }
     
     
