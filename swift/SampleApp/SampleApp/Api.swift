@@ -9,10 +9,29 @@
 import Foundation
 import RxSwift
 import RxAlamofire
+import Alamofire
+import DateTools
 
 class Api: NSObject {
-    public static func bpiHistoricalData(fromDate: Date, toDate: Date) -> Observable<(HTTPURLResponse, Any)> {
+    
+    var alamofireManager: SessionManager
+    
+    override init() {
+        let sessionConfiguration = URLSessionConfiguration.default
+        sessionConfiguration.timeoutIntervalForRequest = 10
+        self.alamofireManager = Alamofire.SessionManager(configuration: sessionConfiguration)
+        super.init()
+    }
+    
+    public func bpiHistoricalData(fromDate: Date, toDate: Date) -> Observable<DataRequest> {
         let config = ViewModel.configDictionary()
-        return RxAlamofire.requestJSON(.get, config["bpi_url"]!)
+        
+        let startDate = fromDate.description.substring(to: String.Index(10))
+        let endDate = toDate.description.substring(to: String.Index(10))
+        
+        let parameterString = "?start=" + startDate + "&end=" + endDate
+        let url = config["bpi_url"]! + parameterString
+        
+        return Observable<DataRequest>.just(Alamofire.request(url, method: HTTPMethod.get).validate())
     }
 }

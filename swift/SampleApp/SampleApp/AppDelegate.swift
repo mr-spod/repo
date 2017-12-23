@@ -19,9 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         let vm = ViewModel()
+        vm.defaultBpiData()
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = ViewController()
+        window?.rootViewController = ViewController(viewModel: vm)
         window?.makeKeyAndVisible()
         
         return true
