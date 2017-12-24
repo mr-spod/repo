@@ -76,8 +76,8 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
                                     "button": submitButton]
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[start]-15-[end]-30-[button]-|", metrics: [:], views: views))
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[startLabel]-15-[endLabel]-30-[button]-|", metrics: [:], views: views))
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[startLabel]-20-[start]|", metrics: [:], views: views))
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[endLabel]-20-[end]|", metrics: [:], views: views))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[startLabel]-20-[start(120)]|", metrics: [:], views: views))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[endLabel]-20-[end(120)]|", metrics: [:], views: views))
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[button]-|", metrics: [:], views: views))
         
     }
