@@ -9,6 +9,7 @@
 import RxSwift
 import Foundation
 import DateTools
+import Charts
 
 class ViewModel: NSObject {
     
@@ -77,7 +78,7 @@ class ViewModel: NSObject {
         var index = 0
         let bpiMap = bpiDateMap()
         while (index < labels.count) {
-            vals[index] = bpiMap.value(forKey: labels[index]) as! NSNumber
+            vals[index] = (bpiMap.value(forKey: labels[index]) as! NSNumber)
             index += 1
         }
         return vals as! [NSNumber]
@@ -103,6 +104,20 @@ class ViewModel: NSObject {
             bpiDateMap.setValue(NSNumber(value: floatPrice), forKey: key)
         }
         return bpiDateMap
+    }
+    
+    public func graphData() -> LineChartData {
+        let values = self.values()
+        var entries = [ChartDataEntry?](repeating: nil, count: values.count)
+        var index = 0
+        for n: NSNumber in  values {
+            let entry = ChartDataEntry.init(x: Double(index), y: n.doubleValue)
+            entries[index] = entry
+            index += 1
+        }
+        let dataSet = LineChartDataSet(values: (entries as! [ChartDataEntry]), label: "Data Set")
+        let data = LineChartData(dataSet: dataSet)
+        return data
     }
     
     public static func dateKey(date: Date) -> String {
