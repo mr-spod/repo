@@ -24,7 +24,16 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
         super.init(frame: CGRect.zero)
         
         datePicker.translatesAutoresizingMaskIntoConstraints = false
+        datePicker.addTarget(self, action: #selector(handleDatePicker(sender:)), for: UIControlEvents.valueChanged)
         datePicker.datePickerMode = .date
+        
+        let toolBar = UIToolbar()
+        toolBar.barStyle = UIBarStyle.default
+        toolBar.isTranslucent = true
+        let done = UIBarButtonItem.init(title: "Done", style: .done, target: self, action: #selector(toolBarDonePressed))
+        toolBar.setItems([done], animated: false)
+        toolBar.sizeToFit()
+        toolBar.isUserInteractionEnabled = true
         
         startField.translatesAutoresizingMaskIntoConstraints = false
         startField.font = UIFont.systemFont(ofSize: 18)
@@ -32,6 +41,7 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
         startField.textAlignment = .left
         startField.delegate = self
         startField.inputView = datePicker
+        startField.inputAccessoryView = toolBar
         addSubview(startField)
         
         endField.translatesAutoresizingMaskIntoConstraints = false
@@ -40,6 +50,7 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
         endField.textAlignment = .left
         endField.delegate = self
         endField.inputView = datePicker
+        endField.inputAccessoryView = toolBar
         addSubview(endField)
         
         startLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -65,8 +76,8 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
                                     "button": submitButton]
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[start]-15-[end]-30-[button]-|", metrics: [:], views: views))
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[startLabel]-15-[endLabel]-30-[button]-|", metrics: [:], views: views))
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[startLabel]-[start]-|", metrics: [:], views: views))
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[endLabel]-[end]-|", metrics: [:], views: views))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[startLabel]-20-[start]|", metrics: [:], views: views))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[endLabel]-20-[end]|", metrics: [:], views: views))
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[button]-|", metrics: [:], views: views))
         
     }
@@ -74,6 +85,20 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
     required init?(coder aDecoder: NSCoder) {
         self.viewModel = ViewModel()
         super.init(coder: aDecoder)
+    }
+    
+    func handleDatePicker(sender: UIDatePicker) {
+        let dateString = datePicker.date.description.substring(to: String.Index(10))
+        if (startField.isFirstResponder) {
+            startField.text = dateString
+        } else {
+            endField.text = dateString
+        }
+    }
+    
+    func toolBarDonePressed() {
+        startField.resignFirstResponder()
+        endField.resignFirstResponder()
     }
     
 }

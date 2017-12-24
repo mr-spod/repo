@@ -36,15 +36,12 @@ class ViewController: UIViewController {
         
         let views: [String: Any] = ["picker": pickerView]
         
-        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[picker(150)]-|", metrics: [:], views: views))
-        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[picker(100)]-|", metrics: [:], views: views))
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[picker(300)]-|", metrics: [:], views: views))
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[picker(250)]-|", metrics: [:], views: views))
         
         vm.bpiData.asObservable().skip(1)
             .subscribe(onNext: { [weak self] (newVal) in
             print("OBSERVATION")
-                print(self?.vm.dateLabels())
-                print(self?.vm.values())
-                print(self?.vm.graphData().dataSets[0].entryCount)
         }).disposed(by: disposeBag)
         
         // Do any additional setup after loading the view, typically from a nib.
