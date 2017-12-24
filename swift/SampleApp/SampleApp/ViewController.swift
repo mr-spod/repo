@@ -8,10 +8,12 @@
 
 import UIKit
 import RxSwift
+import BlocksKit
 
 class ViewController: UIViewController {
 
     var vm: ViewModel
+    let disposeBag = DisposeBag()
     
     init(viewModel: ViewModel) {
         self.vm = viewModel
@@ -19,16 +21,20 @@ class ViewController: UIViewController {
     }
     
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        self.vm = ViewModel()
+        super.init(coder: aDecoder)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.blue
         
-        vm.bpiData.asObservable().subscribe(onNext: { (nextVal: [String: AnyObject]) in
-            print("WE GOT IT:" + nextVal)
-        }).dispose()
+        vm.bpiData.asObservable().skip(1)
+            .subscribe(onNext: { [weak self] (newVal) in
+            print("OBSERVATION")
+                print(self?.vm.dateLabels())
+                print(self?.vm.values())
+        }).disposed(by: disposeBag)
         
         // Do any additional setup after loading the view, typically from a nib.
     }
