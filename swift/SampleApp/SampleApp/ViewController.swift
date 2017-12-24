@@ -9,9 +9,10 @@
 import UIKit
 import RxSwift
 import BlocksKit
+import Charts
 
 class ViewController: UIViewController {
-
+    
     var vm: ViewModel
     let disposeBag = DisposeBag()
     
@@ -27,13 +28,23 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.blue
+        view.backgroundColor = UIColor.white
+        
+        let pickerView = DateRangePickerView(vm: vm)
+        pickerView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(pickerView)
+        
+        let views: [String: Any] = ["picker": pickerView]
+        
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[picker(150)]-|", metrics: [:], views: views))
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[picker(100)]-|", metrics: [:], views: views))
         
         vm.bpiData.asObservable().skip(1)
             .subscribe(onNext: { [weak self] (newVal) in
             print("OBSERVATION")
                 print(self?.vm.dateLabels())
                 print(self?.vm.values())
+                print(self?.vm.graphData().dataSets[0].entryCount)
         }).disposed(by: disposeBag)
         
         // Do any additional setup after loading the view, typically from a nib.
@@ -44,6 +55,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        <#code#>
+//    }
+    
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        <#code#>
+//    }
 
 }
 

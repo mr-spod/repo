@@ -22,7 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         vm.defaultBpiData()
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = ViewController(viewModel: vm)
+        let nav = UINavigationController(rootViewController: ViewController(viewModel: vm))
+        window?.rootViewController = nav
         window?.makeKeyAndVisible()
         
         return true
