@@ -9,6 +9,7 @@ target 'SampleApp' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxAlamofire'
+  pod 'Charts'
   pod 'DateTools'
   
   target 'SampleAppTests' do
