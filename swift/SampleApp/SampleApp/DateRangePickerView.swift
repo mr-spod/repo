@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import RxSwift
 import RxCocoa
+import DateTools
 
 class DateRangePickerView: UIView, UITextFieldDelegate {
     
@@ -27,6 +28,11 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
         
         datePicker.translatesAutoresizingMaskIntoConstraints = false
         datePicker.datePickerMode = .date
+        let config = ViewModel.configDictionary()
+        if let startDate = config["bitcoin_start_date"] as? Double {
+            datePicker.minimumDate = Date(timeIntervalSince1970: startDate)
+        }
+        datePicker.maximumDate = Date()
         
         datePicker.rx.date.asObservable()
             .subscribe(onNext: { [weak self] date in

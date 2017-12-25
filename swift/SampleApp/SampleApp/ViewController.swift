@@ -11,6 +11,7 @@ import RxSwift
 import RxCocoa
 import BlocksKit
 import Charts
+import DateTools
 
 class ViewController: UIViewController {
     
@@ -39,6 +40,11 @@ class ViewController: UIViewController {
         view.addSubview(pickerView)
         
         pickerView.submitButton.rx.tap
+            .filter({ [weak self] () -> Bool in
+                let start = self?.vm.startDate.value
+                let end = self?.vm.endDate.value
+                return (end! as NSDate).days(from: start) > 0
+            })
             .subscribe(onNext: { [weak self] in
                 self?.graphVm.getBpiData(start: (self?.vm.startDate.value)!,
                                          end: (self?.vm.endDate.value)!)

@@ -27,10 +27,23 @@ class GraphViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = UIColor.lightGray
         
         graphView.translatesAutoresizingMaskIntoConstraints = false
         graphView.isHidden = false
+        graphView.backgroundColor = UIColor.lightGray
+        graphView.tintColor = UIColor.white
+        
+        graphView.leftAxis.gridColor = UIColor.darkGray
+        graphView.leftAxis.axisLineColor = UIColor.darkGray
+        graphView.leftAxis.labelTextColor = UIColor.black
+        graphView.leftAxis.axisMinimum = 0
+        graphView.rightAxis.enabled = false
+        
+        graphView.xAxis.gridColor = UIColor.darkGray
+        graphView.xAxis.labelTextColor = UIColor.black
+        graphView.xAxis.axisLineColor = UIColor.darkGray
+        graphView.xAxis.labelPosition = .bottom
         graphView.xAxis.labelRotationAngle = 45
         view.addSubview(graphView)
         
@@ -44,6 +57,7 @@ class GraphViewController: UIViewController {
         let data = viewModel.graphData()
         let labels = viewModel.dateLabels()
         self.graphView.setLineChartData(lineData: data, xAxisLabels: labels, label: "BPI from X/X/X to X/X/X")
+        graphView.chartDescription?.text = "Bitcoin Price from " + labels[0] + "to " + labels[labels.count - 1]
     }
     
     

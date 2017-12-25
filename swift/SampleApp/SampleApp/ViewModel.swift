@@ -25,13 +25,13 @@ class ViewModel: NSObject {
         super.init()
     }
     
-    public static func configDictionary() -> Dictionary<String, String> {
-        var config = Dictionary<String, String>()
+    public static func configDictionary() -> Dictionary<String, AnyObject> {
+        var config = Dictionary<String, AnyObject>()
         if let path = Bundle.main.path(forResource: "config", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-                if let jsonResult = jsonResult as? Dictionary<String, String> {
+                if let jsonResult = jsonResult as? Dictionary<String, AnyObject> {
                     config = jsonResult
                 }
             } catch {
@@ -110,17 +110,15 @@ class ViewModel: NSObject {
             chartEntries.append(entry)
             index += 1
         }
-        let dataSet = LineChartDataSet(values: (chartEntries), label: "Data Set")
-        dataSet.setColor(UIColor(red: 51/255, green: 181/255, blue: 229/255, alpha: 1))
-        dataSet.setCircleColor(UIColor.orange)
-        dataSet.lineWidth = 4
+        let dataSet = LineChartDataSet(values: (chartEntries), label: "Price")
+        dataSet.setColor(UIColor.blue)
+        dataSet.setCircleColor(UIColor.white)
+        dataSet.lineWidth = 5
         dataSet.circleRadius = 2
         dataSet.drawCircleHoleEnabled = false
         
         let data = LineChartData()
         data.addDataSet(dataSet)
-        data.setDrawValues(true)
-        data.setValueTextColor(UIColor.red)
         
         return data
     }

@@ -30,7 +30,7 @@ class Api: NSObject {
         let endDate = toDate.description.substring(to: String.Index(10))
         
         let parameterString = "?start=" + startDate + "&end=" + endDate
-        let url = config["bpi_url"]! + parameterString
+        let url = config["bpi_url"] as! String + parameterString
         
         return Observable<DataRequest>.just(Alamofire.request(url, method: HTTPMethod.get).validate())
     }

@@ -11,7 +11,7 @@ import Charts
 
 extension LineChartView {
     
-    private class LineChartFormatter: NSObject, IAxisValueFormatter {
+    private class LineChartXAxisFormatter: NSObject, IAxisValueFormatter {
         
         var labels: [String] = []
         
@@ -25,12 +25,30 @@ extension LineChartView {
         }
     }
     
+    private class LineChartYAxisFormatter: NSObject, IAxisValueFormatter {
+        
+        func stringForValue(_ value: Double, axis: AxisBase?) -> String {
+            return formatter.string(from: NSNumber(value: value))!
+        }
+        
+        let formatter = NumberFormatter()
+        
+        override init() {
+            formatter.numberStyle = .currency
+            formatter.locale = Locale.current
+            super.init()
+        }
+    }
+    
     func setLineChartData(lineData: LineChartData, xAxisLabels: [String], label: String) {
         
-        let chartFormatter = LineChartFormatter(labels: xAxisLabels)
+        let chartFormatter = LineChartXAxisFormatter(labels: xAxisLabels)
         let xAxis = XAxis()
         xAxis.valueFormatter = chartFormatter
         self.xAxis.valueFormatter = xAxis.valueFormatter
+        let leftAxis = YAxis()
+        leftAxis.valueFormatter = LineChartYAxisFormatter()
+        self.leftAxis.valueFormatter = leftAxis.valueFormatter
         self.data = lineData
     }
 }

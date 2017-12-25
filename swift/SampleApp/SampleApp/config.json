@@ -1,3 +1,4 @@
 {
-    "bpi_url": "https://api.coindesk.com/v1/bpi/historical/close.json"
+    "bpi_url": "https://api.coindesk.com/v1/bpi/historical/close.json",
+    "bitcoin_start_date": 1280620800
 }
