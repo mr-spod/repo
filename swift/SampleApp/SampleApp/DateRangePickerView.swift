@@ -8,6 +8,8 @@
 
 import Foundation
 import UIKit
+import RxSwift
+import RxCocoa
 
 class DateRangePickerView: UIView, UITextFieldDelegate {
     
@@ -17,15 +19,24 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
     let endLabel = UILabel()
     let submitButton = UIButton()
     let datePicker = UIDatePicker()
-    var viewModel: ViewModel
+    var viewModel: PickerViewModel
     
-    init(vm: ViewModel) {
+    init(vm: PickerViewModel) {
         self.viewModel = vm
         super.init(frame: CGRect.zero)
         
         datePicker.translatesAutoresizingMaskIntoConstraints = false
-        datePicker.addTarget(self, action: #selector(handleDatePicker(sender:)), for: UIControlEvents.valueChanged)
         datePicker.datePickerMode = .date
+        
+        datePicker.rx.date.asObservable()
+            .subscribe(onNext: { [weak self] date in
+                let dateString = self?.datePicker.date.description.substring(to: String.Index(10))
+                if (self?.startField.isFirstResponder)! {
+                    self?.startField.text = dateString
+                } else {
+                    self?.endField.text = dateString
+                }
+            }).disposed(by: viewModel.disposeBag)
         
         let toolBar = UIToolbar()
         toolBar.barStyle = UIBarStyle.default
@@ -44,6 +55,14 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
         startField.inputAccessoryView = toolBar
         addSubview(startField)
         
+        startField.rx.text.asObservable()
+            .subscribe(onNext: { [weak self] text in
+                if let date = self?.datePicker.date {
+                    self?.viewModel.setStartDate(d: date)
+                    self?.startField.text = date.description.substring(to: String.Index(10))
+                }
+            }).disposed(by: viewModel.disposeBag)
+        
         endField.translatesAutoresizingMaskIntoConstraints = false
         endField.font = UIFont.systemFont(ofSize: 18)
         endField.borderStyle = .roundedRect
@@ -52,6 +71,14 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
         endField.inputView = datePicker
         endField.inputAccessoryView = toolBar
         addSubview(endField)
+        
+        endField.rx.text.asObservable()
+            .subscribe(onNext: { [weak self] text in
+                if let date = self?.datePicker.date {
+                    self?.viewModel.setEndDate(d: date)
+                    self?.endField.text = date.description.substring(to: String.Index(10))
+                }
+            }).disposed(by: viewModel.disposeBag)
         
         startLabel.translatesAutoresizingMaskIntoConstraints = false
         startLabel.text = "Start date:"
@@ -83,17 +110,8 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
     }
     
     required init?(coder aDecoder: NSCoder) {
-        self.viewModel = ViewModel()
+        self.viewModel = PickerViewModel()
         super.init(coder: aDecoder)
-    }
-    
-    func handleDatePicker(sender: UIDatePicker) {
-        let dateString = datePicker.date.description.substring(to: String.Index(10))
-        if (startField.isFirstResponder) {
-            startField.text = dateString
-        } else {
-            endField.text = dateString
-        }
     }
     
     func toolBarDonePressed() {
@@ -101,4 +119,23 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
         endField.resignFirstResponder()
     }
     
+    
+    
+}
+
+
+// From https://github.com/ReactiveX/RxSwift/issues/606
+infix operator <->
+
+func <-> <T>(property: ControlProperty<T>, variable: Variable<T>) -> Disposable {
+    let bindToUIDisposable = variable.asObservable()
+        .bind(to: property)
+    let bindToVariable = property
+        .subscribe(onNext: { n in
+            variable.value = n
+        }, onCompleted:  {
+            bindToUIDisposable.dispose()
+        })
+    
+    return CompositeDisposable(bindToUIDisposable, bindToVariable)
 }

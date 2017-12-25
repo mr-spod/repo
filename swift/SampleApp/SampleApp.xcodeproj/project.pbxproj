@@ -18,7 +18,10 @@
 		3D77ED501FEDC64B00354FBA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D77ED4F1FEDC64B00354FBA /* ViewModel.swift */; };
 		3D77ED541FEDC7AF00354FBA /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D77ED531FEDC7AF00354FBA /* config.json */; };
 		3D77ED561FEDCCED00354FBA /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D77ED551FEDCCED00354FBA /* Api.swift */; };
+		3DB474F11FF1A15100AE51B5 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB474F01FF1A15100AE51B5 /* GraphViewController.swift */; };
+		3DB474F31FF1A4D600AE51B5 /* LineChartViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB474F21FF1A4D600AE51B5 /* LineChartViewExt.swift */; };
 		3DF2A7201FF01AA800DA6A90 /* DateRangePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF2A71F1FF01AA800DA6A90 /* DateRangePickerView.swift */; };
+		3DF2A7221FF054DA00DA6A90 /* PickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF2A7211FF054DA00DA6A90 /* PickerViewModel.swift */; };
 		4CD83C829337AB72000CD76C /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB89F7A8B6101DE517BA36E /* Pods_SampleApp.framework */; };
 		8D5394676AC54341FB1F1E64 /* Pods_SampleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5693EFE622FA3F54DA8C581 /* Pods_SampleAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -61,7 +64,10 @@
 		3D77ED4F1FEDC64B00354FBA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		3D77ED531FEDC7AF00354FBA /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 		3D77ED551FEDCCED00354FBA /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		3DB474F01FF1A15100AE51B5 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		3DB474F21FF1A4D600AE51B5 /* LineChartViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewExt.swift; sourceTree = "<group>"; };
 		3DF2A71F1FF01AA800DA6A90 /* DateRangePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRangePickerView.swift; sourceTree = "<group>"; };
+		3DF2A7211FF054DA00DA6A90 /* PickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewModel.swift; sourceTree = "<group>"; };
 		A9E1F432B70BC4CFC140A690 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		C5693EFE622FA3F54DA8C581 /* Pods_SampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF97522BF8BD94521D10B2C4 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +136,9 @@
 				3D5842121FEB295A00274622 /* SampleApp.xcdatamodeld */,
 				3D77ED531FEDC7AF00354FBA /* config.json */,
 				3DF2A71F1FF01AA800DA6A90 /* DateRangePickerView.swift */,
+				3DF2A7211FF054DA00DA6A90 /* PickerViewModel.swift */,
+				3DB474F01FF1A15100AE51B5 /* GraphViewController.swift */,
+				3DB474F21FF1A4D600AE51B5 /* LineChartViewExt.swift */,
 			);
 			path = SampleApp;
 			sourceTree = "<group>";
@@ -440,10 +449,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB474F31FF1A4D600AE51B5 /* LineChartViewExt.swift in Sources */,
 				3D5842141FEB295A00274622 /* SampleApp.xcdatamodeld in Sources */,
+				3DF2A7221FF054DA00DA6A90 /* PickerViewModel.swift in Sources */,
 				3D58420E1FEB295A00274622 /* ViewController.swift in Sources */,
 				3DF2A7201FF01AA800DA6A90 /* DateRangePickerView.swift in Sources */,
 				3D77ED501FEDC64B00354FBA /* ViewModel.swift in Sources */,
+				3DB474F11FF1A15100AE51B5 /* GraphViewController.swift in Sources */,
 				3D77ED561FEDCCED00354FBA /* Api.swift in Sources */,
 				3D58420C1FEB295A00274622 /* AppDelegate.swift in Sources */,
 			);

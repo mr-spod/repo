@@ -15,13 +15,14 @@ class ViewModel: NSObject {
     
     public var bpiData: Variable<[String: AnyObject]>
     public var startDate: Date
+    public var endDate: Date
     private let bag = DisposeBag()
     
     override init() {
         self.bpiData = Variable([:])
         self.startDate = Date()
+        self.endDate = Date()
         super.init()
-        print(ViewModel.configDictionary())
     }
     
     public static func configDictionary() -> Dictionary<String, String> {
@@ -40,16 +41,11 @@ class ViewModel: NSObject {
         return config
     }
     
-    public func defaultBpiData() {
-        let today = NSDate()
-        let sixMonthsAgo = today.subtractingMonths(6)
-        setBpiData(fromDate: sixMonthsAgo!, toDate: today as Date)
-    }
-    
-    public func setBpiData(fromDate: Date, toDate: Date) {
+    public func getBpiData(start: Date, end: Date) {
+        startDate = start
+        endDate = end
         let api = Api()
-        self.startDate = fromDate
-        api.bpiHistoricalData(fromDate: fromDate, toDate: toDate)
+        api.bpiHistoricalData(fromDate: startDate, toDate: endDate)
             .subscribe(onNext: { [weak self] (request) in
             request.responseJSON { (json) -> Void in
                 if let jsonObject = json.result.value as? [String: AnyObject] {
@@ -61,7 +57,7 @@ class ViewModel: NSObject {
     
     public func dateLabels() -> [String] {
         var index = 0
-        let daysFromStart = NSDate().days(from: startDate)
+        let daysFromStart = (endDate as NSDate).days(from: startDate)
         var indexDate = (startDate as NSDate).copy() as! NSDate
         var labels = [String?](repeating: "", count: daysFromStart)
         while (index != daysFromStart) {
@@ -78,45 +74,54 @@ class ViewModel: NSObject {
         var index = 0
         let bpiMap = bpiDateMap()
         while (index < labels.count) {
-            vals[index] = (bpiMap.value(forKey: labels[index]) as! NSNumber)
+            vals[index] = bpiMap[labels[index]] as? NSNumber
             index += 1
         }
         return vals as! [NSNumber]
     }
     
-    public func bpiDateMap() -> NSDictionary {
-        guard let bpiDateMap = bpiData.value["bpi"] as? NSDictionary else {
+    public func bpiDateMap() -> [String: NSNumber] {
+        guard var bpiDateMap = bpiData.value["bpi"] as? [String: AnyObject] else {
             print("ERROR: no value in bpiData for key 'bpi'")
             return [:]
         }
-        let today = Date()
-        var index = (startDate as NSDate).days(from: today)
+        var index = (endDate as NSDate).days(from: startDate)
         while (index > 0) {
-            var indexDate = (today as NSDate)
+            var indexDate = (endDate as NSDate)
             indexDate = (indexDate.subtractingDays(index) as NSDate)
             index -= 1
             let key = ViewModel.dateKey(date: (indexDate as Date))
-            let price = bpiDateMap.object(forKey: key)
+            let price = bpiDateMap[key]
             guard let floatPrice = price as? Float else {
                 print("ERROR: couldn't read bpi price as float")
                 return [:]
             }
-            bpiDateMap.setValue(NSNumber(value: floatPrice), forKey: key)
+            bpiDateMap[key] = NSNumber(value: floatPrice)
         }
-        return bpiDateMap
+        return bpiDateMap as! [String: NSNumber]
     }
     
     public func graphData() -> LineChartData {
         let values = self.values()
-        var entries = [ChartDataEntry?](repeating: nil, count: values.count)
+        var chartEntries = [ChartDataEntry]()
         var index = 0
         for n: NSNumber in  values {
             let entry = ChartDataEntry.init(x: Double(index), y: n.doubleValue)
-            entries[index] = entry
+            chartEntries.append(entry)
             index += 1
         }
-        let dataSet = LineChartDataSet(values: (entries as! [ChartDataEntry]), label: "Data Set")
-        let data = LineChartData(dataSet: dataSet)
+        let dataSet = LineChartDataSet(values: (chartEntries), label: "Data Set")
+        dataSet.setColor(UIColor(red: 51/255, green: 181/255, blue: 229/255, alpha: 1))
+        dataSet.setCircleColor(UIColor.orange)
+        dataSet.lineWidth = 4
+        dataSet.circleRadius = 2
+        dataSet.drawCircleHoleEnabled = false
+        
+        let data = LineChartData()
+        data.addDataSet(dataSet)
+        data.setDrawValues(true)
+        data.setValueTextColor(UIColor.red)
+        
         return data
     }
     
