@@ -50,21 +50,12 @@ class ViewController: UIViewController {
             .subscribe(onNext: { [weak self] (data: [String: AnyObject]) in
                 let graphVc = GraphViewController(viewModel: (self?.graphVm)!)
                 self?.navigationController?.pushViewController(graphVc, animated: true)
-                
-                // make new vc to show graph
             }).disposed(by: vm.disposeBag)
         
         let views: [String: Any] = ["picker": pickerView]
         
         view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[picker(300)]-|", metrics: [:], views: views))
         view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[picker(250)]-|", metrics: [:], views: views))
-        
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 }
