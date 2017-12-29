@@ -39,6 +39,11 @@ class ViewController: UIViewController {
         pickerView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(pickerView)
         
+        /*
+         When the submit button is tapped, as long as there is a day in between start & end
+         (and start is before end), then have the ViewModel request the historical data
+         between these dates
+        */
         pickerView.submitButton.rx.tap
             .filter({ [weak self] () -> Bool in
                 let start = self?.vm.startDate.value
@@ -50,6 +55,10 @@ class ViewController: UIViewController {
                                          end: (self?.vm.endDate.value)!)
             }).disposed(by: vm.disposeBag)
         
+        /*
+         When the bpiData Variable of the ViewModel changes (to something that is not empty),
+         create a GraphViewController with this ViewModel & push it
+        */
         graphVm.bpiData.asObservable().filter({
                 return !$0.isEmpty
             })

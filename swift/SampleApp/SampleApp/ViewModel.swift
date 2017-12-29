@@ -25,6 +25,9 @@ class ViewModel: NSObject {
         super.init()
     }
     
+    /*
+     Class method to load JSON from config.json into a Dictionary object
+     */
     public static func configDictionary() -> Dictionary<String, AnyObject> {
         var config = Dictionary<String, AnyObject>()
         if let path = Bundle.main.path(forResource: "config", ofType: "json") {
@@ -41,6 +44,10 @@ class ViewModel: NSObject {
         return config
     }
     
+    /*
+     Makes API request for Bitcoin Price Index historical data from start: to end:, and assigns
+     the data to the RxSwift.Variable bpiData (observed upon by ViewController)
+    */
     public func getBpiData(start: Date, end: Date) {
         startDate = start
         endDate = end
@@ -55,6 +62,10 @@ class ViewModel: NSObject {
         }).disposed(by: bag)
     }
     
+    /*
+     Returns an array of formatted dates from self.startDate -> self.endDate (for BPI graph x-axis)
+     *** Index i of values() corresponds to index i of dateLabels() ***
+    */
     public func dateLabels() -> [String] {
         var index = 0
         let daysFromStart = (endDate as NSDate).days(from: startDate)
@@ -68,7 +79,11 @@ class ViewModel: NSObject {
         return labels as! [String]
     }
     
-    public func values() -> [NSNumber] {
+    /*
+     Returns an array of NSNumbers holding the BPI dollar amounts in chronological order
+     *** Index i of values() corresponds to index i of dateLabels() ***
+    */
+    private func values() -> [NSNumber] {
         let labels = dateLabels()
         var vals = [NSNumber?](repeating: NSNumber(), count: labels.count)
         var index = 0
@@ -80,7 +95,11 @@ class ViewModel: NSObject {
         return vals as! [NSNumber]
     }
     
-    public func bpiDateMap() -> [String: NSNumber] {
+    /*
+     Converts the RxSwift.Variable self.bpiData's value to [String: NSNumber]
+     Keys: formatted dates, Values: $ amount on that date
+    */
+    private func bpiDateMap() -> [String: NSNumber] {
         guard var bpiDateMap = bpiData.value["bpi"] as? [String: AnyObject] else {
             print("ERROR: no value in bpiData for key 'bpi'")
             return [:]
@@ -101,6 +120,9 @@ class ViewModel: NSObject {
         return bpiDateMap as! [String: NSNumber]
     }
     
+    /*
+     Converts self.bpiData to a Charts.LineChartData object for graphing purposes
+    */
     public func graphData() -> LineChartData {
         let values = self.values()
         var chartEntries = [ChartDataEntry]()
@@ -123,7 +145,10 @@ class ViewModel: NSObject {
         return data
     }
     
-    public static func dateKey(date: Date) -> String {
+    /*
+     Returns a formatted date string of the given Date object
+    */
+    private static func dateKey(date: Date) -> String {
         return date.description.substring(to: String.Index(10))
     }
     

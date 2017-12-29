@@ -15,6 +15,7 @@ import DateTools
 class Api: NSObject {
     
     var alamofireManager: SessionManager
+    let config = ViewModel.configDictionary()
     
     override init() {
         let sessionConfiguration = URLSessionConfiguration.default
@@ -23,8 +24,11 @@ class Api: NSObject {
         super.init()
     }
     
+    /*
+     Returns an Observable containing Bitcoin Price Index historical data from fromDate: to toDate:
+     *** URL for request is taken from config dictionary ***
+    */
     public func bpiHistoricalData(fromDate: Date, toDate: Date) -> Observable<DataRequest> {
-        let config = ViewModel.configDictionary()
         
         let startDate = fromDate.description.substring(to: String.Index(10))
         let endDate = toDate.description.substring(to: String.Index(10))

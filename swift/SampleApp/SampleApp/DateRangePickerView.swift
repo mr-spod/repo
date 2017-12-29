@@ -34,6 +34,10 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
         }
         datePicker.maximumDate = Date()
         
+        /*
+         When the value on the datePicker changes, format the selected Date and
+         set tht string as the text of the first responder
+        */
         datePicker.rx.date.asObservable()
             .subscribe(onNext: { [weak self] date in
                 let dateString = self?.datePicker.date.description.substring(to: String.Index(10))
@@ -61,10 +65,15 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
         startField.inputAccessoryView = toolBar
         addSubview(startField)
         
+        /*
+         When the text of the startField changes, set the start date variable of the
+         PickerViewModel
+        */
         startField.rx.text.asObservable()
             .subscribe(onNext: { [weak self] text in
                 if let date = self?.datePicker.date {
                     self?.viewModel.setStartDate(d: date)
+                    // Reset the text of the startField -- this does NOT cause an infinite loop
                     self?.startField.text = date.description.substring(to: String.Index(10))
                 }
             }).disposed(by: viewModel.disposeBag)
@@ -78,10 +87,15 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
         endField.inputAccessoryView = toolBar
         addSubview(endField)
         
+        /*
+         When the text of the endField changes, set the end date variable of the
+         PickerViewModel
+         */
         endField.rx.text.asObservable()
             .subscribe(onNext: { [weak self] text in
                 if let date = self?.datePicker.date {
                     self?.viewModel.setEndDate(d: date)
+                    // Reset the text of the endField -- this does NOT cause an infinite loop
                     self?.endField.text = date.description.substring(to: String.Index(10))
                 }
             }).disposed(by: viewModel.disposeBag)
@@ -130,7 +144,7 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
     
 }
 
-
+// Used for 2-way binding... just found this interesting & cool looking
 // From https://github.com/ReactiveX/RxSwift/issues/606
 infix operator <->
 

@@ -11,6 +11,9 @@ import Charts
 
 extension LineChartView {
     
+    /*
+     Custom Axis formatter to allow us to use a [String] for the X-Axis labels
+    */
     private class LineChartXAxisFormatter: NSObject, IAxisValueFormatter {
         
         var labels: [String] = []
@@ -25,6 +28,9 @@ extension LineChartView {
         }
     }
     
+    /*
+     Custom Axis formatter to allow us to use a number formatter so the Y-Axis has $USD values
+    */
     private class LineChartYAxisFormatter: NSObject, IAxisValueFormatter {
         
         func stringForValue(_ value: Double, axis: AxisBase?) -> String {
@@ -40,6 +46,9 @@ extension LineChartView {
         }
     }
     
+    /*
+     New class method which sets the axes and graph data
+    */
     func setLineChartData(lineData: LineChartData, xAxisLabels: [String], label: String) {
         
         let chartFormatter = LineChartXAxisFormatter(labels: xAxisLabels)
