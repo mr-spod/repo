@@ -35,6 +35,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         
+        let titleLabel = UILabel()
+        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+        titleLabel.numberOfLines = 0
+        titleLabel.font = UIFont.boldSystemFont(ofSize: 26)
+        titleLabel.text = NSLocalizedString("Bitcoin Price Index\nHistorical Data", comment: "")
+        titleLabel.textAlignment = .center
+        titleLabel.textColor = UIColor.purple
+        view.addSubview(titleLabel)
+        
         let pickerView = DateRangePickerView(vm: vm)
         pickerView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(pickerView)
@@ -67,10 +76,13 @@ class ViewController: UIViewController {
                 self?.navigationController?.pushViewController(graphVc, animated: true)
             }).disposed(by: vm.disposeBag)
         
-        let views: [String: Any] = ["picker": pickerView]
+        let views: [String: Any] = ["picker": pickerView,
+                                    "title": titleLabel]
         
-        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:[picker(300)]", metrics: [:], views: views))
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:[title(80)][picker(300)]", metrics: [:], views: views))
         view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:[picker(250)]", metrics: [:], views: views))
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:[title(250)]", metrics: [:], views: views))
+        view.addConstraint(NSLayoutConstraint(item: titleLabel, attribute: .centerX, relatedBy: .equal, toItem: view, attribute: .centerX, multiplier: 1.0, constant: 0.0))
         view.addConstraint(NSLayoutConstraint(item: pickerView, attribute: .centerX, relatedBy: .equal, toItem: view, attribute: .centerX, multiplier: 1.0, constant: 0.0))
         view.addConstraint(NSLayoutConstraint(item: pickerView, attribute: .centerY, relatedBy: .equal, toItem: view, attribute: .centerY, multiplier: 1.0, constant: -30))
     }
