@@ -60,8 +60,10 @@ class ViewController: UIViewController {
         
         let views: [String: Any] = ["picker": pickerView]
         
-        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[picker(300)]-|", metrics: [:], views: views))
-        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[picker(250)]-|", metrics: [:], views: views))
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:[picker(300)]", metrics: [:], views: views))
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:[picker(250)]", metrics: [:], views: views))
+        view.addConstraint(NSLayoutConstraint(item: pickerView, attribute: .centerX, relatedBy: .equal, toItem: view, attribute: .centerX, multiplier: 1.0, constant: 0.0))
+        view.addConstraint(NSLayoutConstraint(item: pickerView, attribute: .centerY, relatedBy: .equal, toItem: view, attribute: .centerY, multiplier: 1.0, constant: -30))
     }
 
 }

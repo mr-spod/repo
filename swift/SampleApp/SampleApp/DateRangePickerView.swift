@@ -107,11 +107,12 @@ class DateRangePickerView: UIView, UITextFieldDelegate {
                                     "startLabel": startLabel,
                                     "endLabel": endLabel,
                                     "button": submitButton]
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[start]-15-[end]-30-[button]-|", metrics: [:], views: views))
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[startLabel]-15-[endLabel]-30-[button]-|", metrics: [:], views: views))
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[startLabel]-20-[start(120)]|", metrics: [:], views: views))
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[endLabel]-20-[end(120)]|", metrics: [:], views: views))
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[button]-|", metrics: [:], views: views))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-60-[start(40)]-[end(==start)]-30@999-[button(==start)]-|", metrics: [:], views: views))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-60-[startLabel(40)]-[endLabel(==startLabel)]-30@999-[button(==startLabel)]-|", metrics: [:], views: views))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[startLabel]-20@999-[start(120)]|", metrics: [:], views: views))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[endLabel]-20@999-[end(120)]|", metrics: [:], views: views))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:[button(100)]", metrics: [:], views: views))
+        addConstraint(NSLayoutConstraint(item: submitButton, attribute: .centerX, relatedBy: .equal, toItem: self, attribute: .centerX, multiplier: 1.0, constant: 0.0))
         
     }
     
