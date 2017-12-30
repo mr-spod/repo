@@ -1,0 +1,101 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BubbleChartData"
+provides-nominal:
+- "6Charts15BubbleChartDataC"
+provides-member:
+- ["6Charts15BubbleChartDataC", ""]
+provides-dynamic-lookup:
+- "setHighlightCircleWidth"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BarLineScatterCandleBubbleChartData"
+- "BubbleChartData"
+- "CGFloat"
+- "CastingPrecedence"
+- !private "IBubbleChartDataSet"
+- "IChartDataSet"
+depends-member:
+- ["6Charts35BarLineScatterCandleBubbleChartDataC", "CGFloat"]
+- !private ["6Charts35BarLineScatterCandleBubbleChartDataC", "IBubbleChartDataSet"]
+- ["6Charts35BarLineScatterCandleBubbleChartDataC", "IChartDataSet"]
+- !private ["6Charts35BarLineScatterCandleBubbleChartDataC", "_dataSets"]
+- ["6Charts35BarLineScatterCandleBubbleChartDataC", "init"]
+- ["6Charts35BarLineScatterCandleBubbleChartDataC", "setHighlightCircleWidth"]
+- ["6Charts35BarLineScatterCandleBubbleChartDataC", ""]
+- ["6Charts15BubbleChartDataC", "CGFloat"]
+- !private ["6Charts15BubbleChartDataC", "IBubbleChartDataSet"]
+- ["6Charts15BubbleChartDataC", "IChartDataSet"]
+- !private ["6Charts15BubbleChartDataC", "_dataSets"]
+- ["6Charts15BubbleChartDataC", "deinit"]
+- ["6Charts15BubbleChartDataC", "init"]
+- ["6Charts15BubbleChartDataC", "setHighlightCircleWidth"]
+- !private ["s7CVarArgP", "_dataSets"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", ""]
+- ["6Charts9ChartDataC", "CGFloat"]
+- !private ["6Charts9ChartDataC", "IBubbleChartDataSet"]
+- ["6Charts9ChartDataC", "IChartDataSet"]
+- !private ["6Charts9ChartDataC", "_dataSets"]
+- ["6Charts9ChartDataC", "init"]
+- ["6Charts9ChartDataC", "setHighlightCircleWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "_dataSets"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_dataSets"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "_dataSets"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "_dataSets"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", ""]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "highlightCircleWidth"]
+- !private ["6Charts19IBubbleChartDataSetP", "highlightCircleWidth"]
+- !private ["6Charts13IChartDataSetP", "highlightCircleWidth"]
+- ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "IBubbleChartDataSet"]
+- ["So8NSObjectC", "IChartDataSet"]
+- !private ["So8NSObjectC", "_dataSets"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "setHighlightCircleWidth"]
+- !private ["So16NSObjectProtocolP", "_dataSets"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_dataSets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "6Charts35BarLineScatterCandleBubbleChartDataC"
+- "6Charts15BubbleChartDataC"
+- "s7CVarArgP"
+- "6Charts9ChartDataC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- !private "6Charts39IBarLineScatterCandleBubbleChartDataSetP"
+- !private "6Charts19IBubbleChartDataSetP"
+- !private "6Charts13IChartDataSetP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+interface-hash: "4b1b5742348ab4f04a05beb658d3be89"

@@ -1,0 +1,767 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "9SampleApp0B8DelegateC"
+provides-member:
+- ["9SampleApp0B8DelegateC", ""]
+provides-dynamic-lookup:
+- "application"
+- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "persistentContainer"
+- "saveContext"
+- "window"
+depends-top-level:
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "NSError"
+- "NSPersistentContainer"
+- !private "PickerViewModel"
+- "StringLiteralType"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- !private "UINavigationController"
+- "UIResponder"
+- !private "UIScreen"
+- "UIWindow"
+- !private "ViewController"
+- !private "fatalError"
+depends-member:
+- ["9SampleApp0B8DelegateC", "Bool"]
+- !private ["9SampleApp0B8DelegateC", "NSError"]
+- ["9SampleApp0B8DelegateC", "NSPersistentContainer"]
+- !private ["9SampleApp0B8DelegateC", "PickerViewModel"]
+- ["9SampleApp0B8DelegateC", "UIApplication"]
+- ["9SampleApp0B8DelegateC", "UIApplicationLaunchOptionsKey"]
+- !private ["9SampleApp0B8DelegateC", "UINavigationController"]
+- !private ["9SampleApp0B8DelegateC", "UIScreen"]
+- ["9SampleApp0B8DelegateC", "UIWindow"]
+- !private ["9SampleApp0B8DelegateC", "ViewController"]
+- ["9SampleApp0B8DelegateC", "application"]
+- ["9SampleApp0B8DelegateC", "applicationDidBecomeActive"]
+- ["9SampleApp0B8DelegateC", "applicationDidEnterBackground"]
+- ["9SampleApp0B8DelegateC", "applicationDidFinishLaunching"]
+- ["9SampleApp0B8DelegateC", "applicationDidReceiveMemoryWarning"]
+- ["9SampleApp0B8DelegateC", "applicationProtectedDataDidBecomeAvailable"]
+- ["9SampleApp0B8DelegateC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["9SampleApp0B8DelegateC", "applicationShouldRequestHealthAuthorization"]
+- ["9SampleApp0B8DelegateC", "applicationSignificantTimeChange"]
+- ["9SampleApp0B8DelegateC", "applicationWillEnterForeground"]
+- ["9SampleApp0B8DelegateC", "applicationWillResignActive"]
+- ["9SampleApp0B8DelegateC", "applicationWillTerminate"]
+- ["9SampleApp0B8DelegateC", "deinit"]
+- !private ["9SampleApp0B8DelegateC", "fatalError"]
+- ["9SampleApp0B8DelegateC", "init"]
+- ["9SampleApp0B8DelegateC", "persistentContainer"]
+- !private ["9SampleApp0B8DelegateC", "persistentContainer.storage"]
+- ["9SampleApp0B8DelegateC", "saveContext"]
+- ["9SampleApp0B8DelegateC", "window"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "makeKeyAndVisible"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["s7CVarArgP", "NSPersistentContainer"]
+- !private ["s7CVarArgP", "PickerViewModel"]
+- !private ["s7CVarArgP", "UINavigationController"]
+- !private ["s7CVarArgP", "UIScreen"]
+- !private ["s7CVarArgP", "UIWindow"]
+- !private ["s7CVarArgP", "ViewController"]
+- ["s7CVarArgP", "application"]
+- ["s7CVarArgP", "applicationDidBecomeActive"]
+- ["s7CVarArgP", "applicationDidEnterBackground"]
+- ["s7CVarArgP", "applicationDidFinishLaunching"]
+- ["s7CVarArgP", "applicationDidReceiveMemoryWarning"]
+- ["s7CVarArgP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s7CVarArgP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s7CVarArgP", "applicationShouldRequestHealthAuthorization"]
+- ["s7CVarArgP", "applicationSignificantTimeChange"]
+- ["s7CVarArgP", "applicationWillEnterForeground"]
+- ["s7CVarArgP", "applicationWillResignActive"]
+- ["s7CVarArgP", "applicationWillTerminate"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "hasChanges"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loadPersistentStores"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "makeKeyAndVisible"]
+- !private ["s7CVarArgP", "persistentContainer"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "save"]
+- !private ["s7CVarArgP", "saveContext"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["s7CVarArgP", "viewContext"]
+- ["s7CVarArgP", "window"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NSPersistentContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "PickerViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "UINavigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "UIWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "ViewController"]
+- ["s28CustomDebugStringConvertibleP", "application"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidReceiveMemoryWarning"]
+- ["s28CustomDebugStringConvertibleP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s28CustomDebugStringConvertibleP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldRequestHealthAuthorization"]
+- ["s28CustomDebugStringConvertibleP", "applicationSignificantTimeChange"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "hasChanges"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loadPersistentStores"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "persistentContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- !private ["s28CustomDebugStringConvertibleP", "saveContext"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "viewContext"]
+- ["s28CustomDebugStringConvertibleP", "window"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NSPersistentContainer"]
+- !private ["s23CustomStringConvertibleP", "PickerViewModel"]
+- !private ["s23CustomStringConvertibleP", "UINavigationController"]
+- !private ["s23CustomStringConvertibleP", "UIScreen"]
+- !private ["s23CustomStringConvertibleP", "UIWindow"]
+- !private ["s23CustomStringConvertibleP", "ViewController"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "application"]
+- ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
+- ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
+- ["s23CustomStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s23CustomStringConvertibleP", "applicationDidReceiveMemoryWarning"]
+- ["s23CustomStringConvertibleP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s23CustomStringConvertibleP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s23CustomStringConvertibleP", "applicationShouldRequestHealthAuthorization"]
+- ["s23CustomStringConvertibleP", "applicationSignificantTimeChange"]
+- ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
+- ["s23CustomStringConvertibleP", "applicationWillResignActive"]
+- ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "hasChanges"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loadPersistentStores"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s23CustomStringConvertibleP", "persistentContainer"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- !private ["s23CustomStringConvertibleP", "saveContext"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["s23CustomStringConvertibleP", "viewContext"]
+- ["s23CustomStringConvertibleP", "window"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "NSPersistentContainer"]
+- !private ["s9EquatableP", "PickerViewModel"]
+- !private ["s9EquatableP", "UINavigationController"]
+- !private ["s9EquatableP", "UIScreen"]
+- !private ["s9EquatableP", "UIWindow"]
+- !private ["s9EquatableP", "ViewController"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "application"]
+- ["s9EquatableP", "applicationDidBecomeActive"]
+- ["s9EquatableP", "applicationDidEnterBackground"]
+- ["s9EquatableP", "applicationDidFinishLaunching"]
+- ["s9EquatableP", "applicationDidReceiveMemoryWarning"]
+- ["s9EquatableP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s9EquatableP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s9EquatableP", "applicationShouldRequestHealthAuthorization"]
+- ["s9EquatableP", "applicationSignificantTimeChange"]
+- ["s9EquatableP", "applicationWillEnterForeground"]
+- ["s9EquatableP", "applicationWillResignActive"]
+- ["s9EquatableP", "applicationWillTerminate"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "hasChanges"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "loadPersistentStores"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "makeKeyAndVisible"]
+- !private ["s9EquatableP", "persistentContainer"]
+- !private ["s9EquatableP", "rootViewController"]
+- !private ["s9EquatableP", "save"]
+- !private ["s9EquatableP", "saveContext"]
+- !private ["s9EquatableP", "userInfo"]
+- !private ["s9EquatableP", "viewContext"]
+- ["s9EquatableP", "window"]
+- ["s9EquatableP", ""]
+- !private ["s5ErrorP", "userInfo"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7RxCocoa11HasDelegateP", "init"]
+- !private ["s8HashableP", "NSPersistentContainer"]
+- !private ["s8HashableP", "PickerViewModel"]
+- !private ["s8HashableP", "UINavigationController"]
+- !private ["s8HashableP", "UIScreen"]
+- !private ["s8HashableP", "UIWindow"]
+- !private ["s8HashableP", "ViewController"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "application"]
+- ["s8HashableP", "applicationDidBecomeActive"]
+- ["s8HashableP", "applicationDidEnterBackground"]
+- ["s8HashableP", "applicationDidFinishLaunching"]
+- ["s8HashableP", "applicationDidReceiveMemoryWarning"]
+- ["s8HashableP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s8HashableP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s8HashableP", "applicationShouldRequestHealthAuthorization"]
+- ["s8HashableP", "applicationSignificantTimeChange"]
+- ["s8HashableP", "applicationWillEnterForeground"]
+- ["s8HashableP", "applicationWillResignActive"]
+- ["s8HashableP", "applicationWillTerminate"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "hasChanges"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "loadPersistentStores"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "makeKeyAndVisible"]
+- !private ["s8HashableP", "persistentContainer"]
+- !private ["s8HashableP", "rootViewController"]
+- !private ["s8HashableP", "save"]
+- !private ["s8HashableP", "saveContext"]
+- !private ["s8HashableP", "userInfo"]
+- !private ["s8HashableP", "viewContext"]
+- ["s8HashableP", "window"]
+- ["s8HashableP", ""]
+- !private ["7RxCocoa16KVORepresentableP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "hasChanges"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "makeKeyAndVisible"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So8NSCodingP", "save"]
+- !private ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "userInfo"]
+- !private ["So7NSErrorC", "userInfo"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So9NSLockingP", "hasChanges"]
+- !private ["So9NSLockingP", "save"]
+- !private ["So22NSManagedObjectContextC", "hasChanges"]
+- !private ["So22NSManagedObjectContextC", "save"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "NSError"]
+- ["So8NSObjectC", "NSPersistentContainer"]
+- !private ["So8NSObjectC", "PickerViewModel"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
+- !private ["So8NSObjectC", "UINavigationController"]
+- !private ["So8NSObjectC", "UIScreen"]
+- ["So8NSObjectC", "UIWindow"]
+- !private ["So8NSObjectC", "ViewController"]
+- ["So8NSObjectC", "application"]
+- ["So8NSObjectC", "applicationDidBecomeActive"]
+- ["So8NSObjectC", "applicationDidEnterBackground"]
+- ["So8NSObjectC", "applicationDidFinishLaunching"]
+- ["So8NSObjectC", "applicationDidReceiveMemoryWarning"]
+- ["So8NSObjectC", "applicationProtectedDataDidBecomeAvailable"]
+- ["So8NSObjectC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So8NSObjectC", "applicationShouldRequestHealthAuthorization"]
+- ["So8NSObjectC", "applicationSignificantTimeChange"]
+- ["So8NSObjectC", "applicationWillEnterForeground"]
+- ["So8NSObjectC", "applicationWillResignActive"]
+- ["So8NSObjectC", "applicationWillTerminate"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "hasChanges"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "loadPersistentStores"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "makeKeyAndVisible"]
+- ["So8NSObjectC", "persistentContainer"]
+- ["So8NSObjectC", "persistentContainer.storage"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "save"]
+- ["So8NSObjectC", "saveContext"]
+- !private ["So8NSObjectC", "userInfo"]
+- !private ["So8NSObjectC", "viewContext"]
+- ["So8NSObjectC", "window"]
+- !private ["So16NSObjectProtocolP", "NSPersistentContainer"]
+- !private ["So16NSObjectProtocolP", "PickerViewModel"]
+- !private ["So16NSObjectProtocolP", "UINavigationController"]
+- !private ["So16NSObjectProtocolP", "UIScreen"]
+- !private ["So16NSObjectProtocolP", "UIWindow"]
+- !private ["So16NSObjectProtocolP", "ViewController"]
+- ["So16NSObjectProtocolP", "application"]
+- ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
+- ["So16NSObjectProtocolP", "applicationDidEnterBackground"]
+- ["So16NSObjectProtocolP", "applicationDidFinishLaunching"]
+- ["So16NSObjectProtocolP", "applicationDidReceiveMemoryWarning"]
+- ["So16NSObjectProtocolP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So16NSObjectProtocolP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So16NSObjectProtocolP", "applicationShouldRequestHealthAuthorization"]
+- ["So16NSObjectProtocolP", "applicationSignificantTimeChange"]
+- ["So16NSObjectProtocolP", "applicationWillEnterForeground"]
+- ["So16NSObjectProtocolP", "applicationWillResignActive"]
+- ["So16NSObjectProtocolP", "applicationWillTerminate"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "hasChanges"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "loadPersistentStores"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "makeKeyAndVisible"]
+- !private ["So16NSObjectProtocolP", "persistentContainer"]
+- !private ["So16NSObjectProtocolP", "rootViewController"]
+- !private ["So16NSObjectProtocolP", "save"]
+- !private ["So16NSObjectProtocolP", "saveContext"]
+- !private ["So16NSObjectProtocolP", "userInfo"]
+- !private ["So16NSObjectProtocolP", "viewContext"]
+- ["So16NSObjectProtocolP", "window"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So21NSPersistentContainerC", "init"]
+- !private ["So21NSPersistentContainerC", "loadPersistentStores"]
+- !private ["So21NSPersistentContainerC", "viewContext"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "userInfo"]
+- !private ["So8NSStringC", "init"]
+- !private ["9SampleApp15PickerViewModelC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSPersistentContainer"]
+- !private ["7RxSwift18ReactiveCompatibleP", "PickerViewModel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UINavigationController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIScreen"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIWindow"]
+- !private ["7RxSwift18ReactiveCompatibleP", "ViewController"]
+- ["7RxSwift18ReactiveCompatibleP", "application"]
+- ["7RxSwift18ReactiveCompatibleP", "applicationDidBecomeActive"]
+- ["7RxSwift18ReactiveCompatibleP", "applicationDidEnterBackground"]
+- ["7RxSwift18ReactiveCompatibleP", "applicationDidFinishLaunching"]
+- ["7RxSwift18ReactiveCompatibleP", "applicationDidReceiveMemoryWarning"]
+- ["7RxSwift18ReactiveCompatibleP", "applicationProtectedDataDidBecomeAvailable"]
+- ["7RxSwift18ReactiveCompatibleP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["7RxSwift18ReactiveCompatibleP", "applicationShouldRequestHealthAuthorization"]
+- ["7RxSwift18ReactiveCompatibleP", "applicationSignificantTimeChange"]
+- ["7RxSwift18ReactiveCompatibleP", "applicationWillEnterForeground"]
+- ["7RxSwift18ReactiveCompatibleP", "applicationWillResignActive"]
+- ["7RxSwift18ReactiveCompatibleP", "applicationWillTerminate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "bounds"]
+- !private ["7RxSwift18ReactiveCompatibleP", "fatalError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "hasChanges"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "loadPersistentStores"]
+- !private ["7RxSwift18ReactiveCompatibleP", "main"]
+- !private ["7RxSwift18ReactiveCompatibleP", "makeKeyAndVisible"]
+- !private ["7RxSwift18ReactiveCompatibleP", "persistentContainer"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rootViewController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "save"]
+- !private ["7RxSwift18ReactiveCompatibleP", "saveContext"]
+- !private ["7RxSwift18ReactiveCompatibleP", "userInfo"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewContext"]
+- ["7RxSwift18ReactiveCompatibleP", "window"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "makeKeyAndVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "makeKeyAndVisible"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIApplicationDelegateP", "NSPersistentContainer"]
+- !private ["So21UIApplicationDelegateP", "PickerViewModel"]
+- !private ["So21UIApplicationDelegateP", "UINavigationController"]
+- !private ["So21UIApplicationDelegateP", "UIScreen"]
+- !private ["So21UIApplicationDelegateP", "UIWindow"]
+- !private ["So21UIApplicationDelegateP", "ViewController"]
+- ["So21UIApplicationDelegateP", "application"]
+- ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
+- ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
+- ["So21UIApplicationDelegateP", "applicationDidFinishLaunching"]
+- ["So21UIApplicationDelegateP", "applicationDidReceiveMemoryWarning"]
+- ["So21UIApplicationDelegateP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So21UIApplicationDelegateP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So21UIApplicationDelegateP", "applicationShouldRequestHealthAuthorization"]
+- ["So21UIApplicationDelegateP", "applicationSignificantTimeChange"]
+- ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
+- ["So21UIApplicationDelegateP", "applicationWillResignActive"]
+- ["So21UIApplicationDelegateP", "applicationWillTerminate"]
+- !private ["So21UIApplicationDelegateP", "fatalError"]
+- !private ["So21UIApplicationDelegateP", "persistentContainer"]
+- !private ["So21UIApplicationDelegateP", "saveContext"]
+- ["So21UIApplicationDelegateP", "window"]
+- ["So21UIApplicationDelegateP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "makeKeyAndVisible"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "makeKeyAndVisible"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "makeKeyAndVisible"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So22UINavigationControllerC", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSPersistentContainer"]
+- !private ["So30UIPasteConfigurationSupportingP", "PickerViewModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINavigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIScreen"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "ViewController"]
+- ["So30UIPasteConfigurationSupportingP", "application"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidFinishLaunching"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidReceiveMemoryWarning"]
+- ["So30UIPasteConfigurationSupportingP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So30UIPasteConfigurationSupportingP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So30UIPasteConfigurationSupportingP", "applicationShouldRequestHealthAuthorization"]
+- ["So30UIPasteConfigurationSupportingP", "applicationSignificantTimeChange"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillEnterForeground"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeKeyAndVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "persistentContainer"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "saveContext"]
+- ["So30UIPasteConfigurationSupportingP", "window"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "NSError"]
+- ["So11UIResponderC", "NSPersistentContainer"]
+- !private ["So11UIResponderC", "PickerViewModel"]
+- ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
+- !private ["So11UIResponderC", "UINavigationController"]
+- !private ["So11UIResponderC", "UIScreen"]
+- ["So11UIResponderC", "UIWindow"]
+- !private ["So11UIResponderC", "ViewController"]
+- ["So11UIResponderC", "application"]
+- ["So11UIResponderC", "applicationDidBecomeActive"]
+- ["So11UIResponderC", "applicationDidEnterBackground"]
+- ["So11UIResponderC", "applicationDidFinishLaunching"]
+- ["So11UIResponderC", "applicationDidReceiveMemoryWarning"]
+- ["So11UIResponderC", "applicationProtectedDataDidBecomeAvailable"]
+- ["So11UIResponderC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So11UIResponderC", "applicationShouldRequestHealthAuthorization"]
+- ["So11UIResponderC", "applicationSignificantTimeChange"]
+- ["So11UIResponderC", "applicationWillEnterForeground"]
+- ["So11UIResponderC", "applicationWillResignActive"]
+- ["So11UIResponderC", "applicationWillTerminate"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "makeKeyAndVisible"]
+- ["So11UIResponderC", "persistentContainer"]
+- ["So11UIResponderC", "persistentContainer.storage"]
+- !private ["So11UIResponderC", "rootViewController"]
+- ["So11UIResponderC", "saveContext"]
+- ["So11UIResponderC", "window"]
+- ["So11UIResponderC", ""]
+- !private ["So30UIResponderStandardEditActionsP", "NSPersistentContainer"]
+- !private ["So30UIResponderStandardEditActionsP", "PickerViewModel"]
+- !private ["So30UIResponderStandardEditActionsP", "UINavigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIScreen"]
+- !private ["So30UIResponderStandardEditActionsP", "UIWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "ViewController"]
+- ["So30UIResponderStandardEditActionsP", "application"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidFinishLaunching"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidReceiveMemoryWarning"]
+- ["So30UIResponderStandardEditActionsP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So30UIResponderStandardEditActionsP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So30UIResponderStandardEditActionsP", "applicationShouldRequestHealthAuthorization"]
+- ["So30UIResponderStandardEditActionsP", "applicationSignificantTimeChange"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillEnterForeground"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "makeKeyAndVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "persistentContainer"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "saveContext"]
+- ["So30UIResponderStandardEditActionsP", "window"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So8UIScreenC", "bounds"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "makeKeyAndVisible"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So8UIWindowC", "init"]
+- !private ["So8UIWindowC", "makeKeyAndVisible"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9SampleApp14ViewControllerC", "deinit"]
+- !private ["9SampleApp14ViewControllerC", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "makeKeyAndVisible"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSPersistentContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PickerViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "application"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidFinishLaunching"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidReceiveMemoryWarning"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationProtectedDataDidBecomeAvailable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldRequestHealthAuthorization"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationSignificantTimeChange"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasChanges"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadPersistentStores"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeKeyAndVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "persistentContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "9SampleApp0B8DelegateC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7RxCocoa11HasDelegateP"
+- "s8HashableP"
+- !private "7RxCocoa16KVORepresentableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So9NSLockingP"
+- !private "So22NSManagedObjectContextC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So21NSPersistentContainerC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "9SampleApp15PickerViewModelC"
+- !private "s26RangeReplaceableCollectionP"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- "So21UIApplicationDelegateP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So8UIScreenC"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "9SampleApp14ViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Modules/RxAlamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit+MessageUI.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DateTools-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriod.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+A2DynamicDelegate.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/A2DynamicDelegate.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+A2BlockDelegate.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriodChain.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/A2BlockInvocation.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+BKBlockObservation.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriodCollection.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+BKBlockExecution.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriodGroup.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTError.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/NSDate+DateTools.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DateTools.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BKMacros.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+BKAssociatedObjects.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTConstants.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit+UIKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UITextField+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSCache+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIControl+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIBarButtonItem+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSInvocation+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSURLConnection+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIImagePickerController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIPopoverController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/MFMessageComposeViewController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/MFMailComposeViewController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSTimer+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIGestureRecognizer+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSOrderedSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableOrderedSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSIndexSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableIndexSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIActionSheet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIView+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIWebView+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIAlertView+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSArray+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableArray+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSDictionary+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableDictionary+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+interface-hash: "14a52a1b36019fa3c5b03fb660744f7b"

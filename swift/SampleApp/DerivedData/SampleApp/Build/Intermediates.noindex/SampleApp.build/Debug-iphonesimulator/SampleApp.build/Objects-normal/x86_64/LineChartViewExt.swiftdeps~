@@ -1,0 +1,812 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["6Charts13LineChartViewC", ""]
+- ["6Charts13LineChartViewC", "setLineChartData"]
+provides-dynamic-lookup:
+- "formatter"
+- "labels"
+- "setLineChartData"
+- "stringForValue"
+depends-top-level:
+- "AssignmentPrecedence"
+- "AxisBase"
+- "Double"
+- !private "IAxisValueFormatter"
+- !private "Int"
+- "LineChartData"
+- "LineChartView"
+- !private "Locale"
+- !private "NSNumber"
+- !private "NSObject"
+- !private "NumberFormatter"
+- "String"
+- !private "StringLiteralType"
+- !private "XAxis"
+- !private "YAxis"
+depends-member:
+- !private ["6Charts16AnimatorDelegateP", "Int"]
+- !private ["6Charts16AnimatorDelegateP", "LineChartXAxisFormatter"]
+- !private ["6Charts16AnimatorDelegateP", "LineChartYAxisFormatter"]
+- !private ["6Charts16AnimatorDelegateP", "Locale"]
+- !private ["6Charts16AnimatorDelegateP", "NSNumber"]
+- !private ["6Charts16AnimatorDelegateP", "NumberFormatter"]
+- !private ["6Charts16AnimatorDelegateP", "XAxis"]
+- !private ["6Charts16AnimatorDelegateP", "YAxis"]
+- !private ["6Charts16AnimatorDelegateP", "data"]
+- !private ["6Charts16AnimatorDelegateP", "leftAxis"]
+- !private ["6Charts16AnimatorDelegateP", "xAxis"]
+- !private ["Sa", "subscript"]
+- !private ["6Charts8AxisBaseC", "init"]
+- !private ["6Charts8AxisBaseC", "valueFormatter"]
+- ["6Charts20BarLineChartViewBaseC", "AxisBase"]
+- ["6Charts20BarLineChartViewBaseC", "Double"]
+- !private ["6Charts20BarLineChartViewBaseC", "IAxisValueFormatter"]
+- !private ["6Charts20BarLineChartViewBaseC", "Int"]
+- ["6Charts20BarLineChartViewBaseC", "LineChartData"]
+- !private ["6Charts20BarLineChartViewBaseC", "LineChartXAxisFormatter"]
+- !private ["6Charts20BarLineChartViewBaseC", "LineChartYAxisFormatter"]
+- !private ["6Charts20BarLineChartViewBaseC", "Locale"]
+- !private ["6Charts20BarLineChartViewBaseC", "NSNumber"]
+- !private ["6Charts20BarLineChartViewBaseC", "NSObject"]
+- !private ["6Charts20BarLineChartViewBaseC", "NumberFormatter"]
+- ["6Charts20BarLineChartViewBaseC", "String"]
+- !private ["6Charts20BarLineChartViewBaseC", "XAxis"]
+- !private ["6Charts20BarLineChartViewBaseC", "YAxis"]
+- !private ["6Charts20BarLineChartViewBaseC", "data"]
+- !private ["6Charts20BarLineChartViewBaseC", "leftAxis"]
+- ["6Charts20BarLineChartViewBaseC", "setLineChartData"]
+- !private ["6Charts20BarLineChartViewBaseC", "xAxis"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "Int"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "LineChartXAxisFormatter"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "LineChartYAxisFormatter"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "Locale"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "NSNumber"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "NumberFormatter"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "XAxis"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "YAxis"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "data"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "leftAxis"]
+- !private ["6Charts43BarLineScatterCandleBubbleChartDataProviderP", "xAxis"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["So15CALayerDelegateP", "Int"]
+- !private ["So15CALayerDelegateP", "LineChartXAxisFormatter"]
+- !private ["So15CALayerDelegateP", "LineChartYAxisFormatter"]
+- !private ["So15CALayerDelegateP", "Locale"]
+- !private ["So15CALayerDelegateP", "NSNumber"]
+- !private ["So15CALayerDelegateP", "NumberFormatter"]
+- !private ["So15CALayerDelegateP", "XAxis"]
+- !private ["So15CALayerDelegateP", "YAxis"]
+- !private ["So15CALayerDelegateP", "data"]
+- !private ["So15CALayerDelegateP", "leftAxis"]
+- !private ["So15CALayerDelegateP", "xAxis"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "LineChartXAxisFormatter"]
+- !private ["s7CVarArgP", "LineChartYAxisFormatter"]
+- !private ["s7CVarArgP", "Locale"]
+- !private ["s7CVarArgP", "NSNumber"]
+- !private ["s7CVarArgP", "NumberFormatter"]
+- !private ["s7CVarArgP", "XAxis"]
+- !private ["s7CVarArgP", "YAxis"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "formatter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "labels"]
+- !private ["s7CVarArgP", "leftAxis"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "numberStyle"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "stringForValue"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "valueFormatter"]
+- !private ["s7CVarArgP", "xAxis"]
+- !private ["s7CVarArgP", ""]
+- !private ["6Charts17ChartDataProviderP", "Int"]
+- !private ["6Charts17ChartDataProviderP", "LineChartXAxisFormatter"]
+- !private ["6Charts17ChartDataProviderP", "LineChartYAxisFormatter"]
+- !private ["6Charts17ChartDataProviderP", "Locale"]
+- !private ["6Charts17ChartDataProviderP", "NSNumber"]
+- !private ["6Charts17ChartDataProviderP", "NumberFormatter"]
+- !private ["6Charts17ChartDataProviderP", "XAxis"]
+- !private ["6Charts17ChartDataProviderP", "YAxis"]
+- !private ["6Charts17ChartDataProviderP", "data"]
+- !private ["6Charts17ChartDataProviderP", "leftAxis"]
+- !private ["6Charts17ChartDataProviderP", "xAxis"]
+- ["6Charts13ChartViewBaseC", "AxisBase"]
+- ["6Charts13ChartViewBaseC", "Double"]
+- !private ["6Charts13ChartViewBaseC", "IAxisValueFormatter"]
+- !private ["6Charts13ChartViewBaseC", "Int"]
+- ["6Charts13ChartViewBaseC", "LineChartData"]
+- !private ["6Charts13ChartViewBaseC", "LineChartXAxisFormatter"]
+- !private ["6Charts13ChartViewBaseC", "LineChartYAxisFormatter"]
+- !private ["6Charts13ChartViewBaseC", "Locale"]
+- !private ["6Charts13ChartViewBaseC", "NSNumber"]
+- !private ["6Charts13ChartViewBaseC", "NSObject"]
+- !private ["6Charts13ChartViewBaseC", "NumberFormatter"]
+- ["6Charts13ChartViewBaseC", "String"]
+- !private ["6Charts13ChartViewBaseC", "XAxis"]
+- !private ["6Charts13ChartViewBaseC", "YAxis"]
+- !private ["6Charts13ChartViewBaseC", "data"]
+- !private ["6Charts13ChartViewBaseC", "leftAxis"]
+- ["6Charts13ChartViewBaseC", "setLineChartData"]
+- !private ["6Charts13ChartViewBaseC", "xAxis"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["6Charts13ComponentBaseC", "init"]
+- !private ["6Charts13ComponentBaseC", "valueFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "LineChartXAxisFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "LineChartYAxisFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "Locale"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "NumberFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "XAxis"]
+- !private ["s28CustomDebugStringConvertibleP", "YAxis"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "formatter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "labels"]
+- !private ["s28CustomDebugStringConvertibleP", "leftAxis"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "numberStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "stringForValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "valueFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "xAxis"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "LineChartXAxisFormatter"]
+- !private ["s23CustomStringConvertibleP", "LineChartYAxisFormatter"]
+- !private ["s23CustomStringConvertibleP", "Locale"]
+- !private ["s23CustomStringConvertibleP", "NSNumber"]
+- !private ["s23CustomStringConvertibleP", "NumberFormatter"]
+- !private ["s23CustomStringConvertibleP", "XAxis"]
+- !private ["s23CustomStringConvertibleP", "YAxis"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "formatter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "labels"]
+- !private ["s23CustomStringConvertibleP", "leftAxis"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "numberStyle"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "stringForValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "valueFormatter"]
+- !private ["s23CustomStringConvertibleP", "xAxis"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "current"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "current"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "LineChartXAxisFormatter"]
+- !private ["s9EquatableP", "LineChartYAxisFormatter"]
+- !private ["s9EquatableP", "Locale"]
+- !private ["s9EquatableP", "NSNumber"]
+- !private ["s9EquatableP", "NumberFormatter"]
+- !private ["s9EquatableP", "XAxis"]
+- !private ["s9EquatableP", "YAxis"]
+- !private ["s9EquatableP", "currency"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "formatter"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "labels"]
+- !private ["s9EquatableP", "leftAxis"]
+- !private ["s9EquatableP", "locale"]
+- !private ["s9EquatableP", "numberStyle"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "stringForValue"]
+- !private ["s9EquatableP", "valueFormatter"]
+- !private ["s9EquatableP", "xAxis"]
+- !private ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["So9FormatterC", "init"]
+- !private ["So9FormatterC", "locale"]
+- !private ["So9FormatterC", "numberStyle"]
+- !private ["So9FormatterC", "string"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "LineChartXAxisFormatter"]
+- !private ["s8HashableP", "LineChartYAxisFormatter"]
+- !private ["s8HashableP", "Locale"]
+- !private ["s8HashableP", "NSNumber"]
+- !private ["s8HashableP", "NumberFormatter"]
+- !private ["s8HashableP", "XAxis"]
+- !private ["s8HashableP", "YAxis"]
+- !private ["s8HashableP", "currency"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "formatter"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "labels"]
+- !private ["s8HashableP", "leftAxis"]
+- !private ["s8HashableP", "locale"]
+- !private ["s8HashableP", "numberStyle"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "stringForValue"]
+- !private ["s8HashableP", "valueFormatter"]
+- !private ["s8HashableP", "xAxis"]
+- !private ["s8HashableP", ""]
+- !private ["6Charts19IAxisValueFormatterP", "Int"]
+- !private ["6Charts19IAxisValueFormatterP", "Locale"]
+- !private ["6Charts19IAxisValueFormatterP", "NSNumber"]
+- !private ["6Charts19IAxisValueFormatterP", "NumberFormatter"]
+- !private ["6Charts19IAxisValueFormatterP", "formatter"]
+- !private ["6Charts19IAxisValueFormatterP", "init"]
+- !private ["6Charts19IAxisValueFormatterP", "labels"]
+- !private ["6Charts19IAxisValueFormatterP", "stringForValue"]
+- !private ["6Charts19IAxisValueFormatterP", ""]
+- !private ["Si", "init"]
+- !private ["7RxCocoa16KVORepresentableP", "init"]
+- !private ["6Charts21LineChartDataProviderP", "Int"]
+- !private ["6Charts21LineChartDataProviderP", "LineChartXAxisFormatter"]
+- !private ["6Charts21LineChartDataProviderP", "LineChartYAxisFormatter"]
+- !private ["6Charts21LineChartDataProviderP", "Locale"]
+- !private ["6Charts21LineChartDataProviderP", "NSNumber"]
+- !private ["6Charts21LineChartDataProviderP", "NumberFormatter"]
+- !private ["6Charts21LineChartDataProviderP", "XAxis"]
+- !private ["6Charts21LineChartDataProviderP", "YAxis"]
+- !private ["6Charts21LineChartDataProviderP", "data"]
+- !private ["6Charts21LineChartDataProviderP", "leftAxis"]
+- !private ["6Charts21LineChartDataProviderP", "xAxis"]
+- ["6Charts13LineChartViewC", "AxisBase"]
+- ["6Charts13LineChartViewC", "Double"]
+- !private ["6Charts13LineChartViewC", "IAxisValueFormatter"]
+- !private ["6Charts13LineChartViewC", "Int"]
+- ["6Charts13LineChartViewC", "LineChartData"]
+- !private ["6Charts13LineChartViewC", "LineChartXAxisFormatter"]
+- !private ["6Charts13LineChartViewC", "LineChartYAxisFormatter"]
+- !private ["6Charts13LineChartViewC", "Locale"]
+- !private ["6Charts13LineChartViewC", "NSNumber"]
+- !private ["6Charts13LineChartViewC", "NSObject"]
+- !private ["6Charts13LineChartViewC", "NumberFormatter"]
+- ["6Charts13LineChartViewC", "String"]
+- !private ["6Charts13LineChartViewC", "XAxis"]
+- !private ["6Charts13LineChartViewC", "YAxis"]
+- !private ["6Charts13LineChartViewC", "data"]
+- !private ["6Charts13LineChartViewC", "leftAxis"]
+- ["6Charts13LineChartViewC", "setLineChartData"]
+- !private ["6Charts13LineChartViewC", "xAxis"]
+- !private ["10Foundation6LocaleV", "current"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "LineChartXAxisFormatter"]
+- !private ["So8NSCodingP", "LineChartYAxisFormatter"]
+- !private ["So8NSCodingP", "Locale"]
+- !private ["So8NSCodingP", "NSNumber"]
+- !private ["So8NSCodingP", "NumberFormatter"]
+- !private ["So8NSCodingP", "XAxis"]
+- !private ["So8NSCodingP", "YAxis"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "leftAxis"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "numberStyle"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "xAxis"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "numberStyle"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So8NSNumberC", "init"]
+- ["So8NSObjectC", "AxisBase"]
+- ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "IAxisValueFormatter"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "LineChartData"]
+- !private ["So8NSObjectC", "LineChartXAxisFormatter"]
+- !private ["So8NSObjectC", "LineChartYAxisFormatter"]
+- !private ["So8NSObjectC", "Locale"]
+- !private ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "NSObject"]
+- !private ["So8NSObjectC", "NumberFormatter"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "XAxis"]
+- !private ["So8NSObjectC", "YAxis"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "formatter"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "labels"]
+- !private ["So8NSObjectC", "leftAxis"]
+- !private ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "numberStyle"]
+- ["So8NSObjectC", "setLineChartData"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "stringForValue"]
+- !private ["So8NSObjectC", "valueFormatter"]
+- !private ["So8NSObjectC", "xAxis"]
+- !private ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "LineChartXAxisFormatter"]
+- !private ["So16NSObjectProtocolP", "LineChartYAxisFormatter"]
+- !private ["So16NSObjectProtocolP", "Locale"]
+- !private ["So16NSObjectProtocolP", "NSNumber"]
+- !private ["So16NSObjectProtocolP", "NumberFormatter"]
+- !private ["So16NSObjectProtocolP", "XAxis"]
+- !private ["So16NSObjectProtocolP", "YAxis"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "formatter"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "labels"]
+- !private ["So16NSObjectProtocolP", "leftAxis"]
+- !private ["So16NSObjectProtocolP", "locale"]
+- !private ["So16NSObjectProtocolP", "numberStyle"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So16NSObjectProtocolP", "stringForValue"]
+- !private ["So16NSObjectProtocolP", "valueFormatter"]
+- !private ["So16NSObjectProtocolP", "xAxis"]
+- !private ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- ["6Charts8NSUIViewC", "AxisBase"]
+- ["6Charts8NSUIViewC", "Double"]
+- !private ["6Charts8NSUIViewC", "IAxisValueFormatter"]
+- !private ["6Charts8NSUIViewC", "Int"]
+- ["6Charts8NSUIViewC", "LineChartData"]
+- !private ["6Charts8NSUIViewC", "LineChartXAxisFormatter"]
+- !private ["6Charts8NSUIViewC", "LineChartYAxisFormatter"]
+- !private ["6Charts8NSUIViewC", "Locale"]
+- !private ["6Charts8NSUIViewC", "NSNumber"]
+- !private ["6Charts8NSUIViewC", "NSObject"]
+- !private ["6Charts8NSUIViewC", "NumberFormatter"]
+- ["6Charts8NSUIViewC", "String"]
+- !private ["6Charts8NSUIViewC", "XAxis"]
+- !private ["6Charts8NSUIViewC", "YAxis"]
+- !private ["6Charts8NSUIViewC", "data"]
+- !private ["6Charts8NSUIViewC", "leftAxis"]
+- ["6Charts8NSUIViewC", "setLineChartData"]
+- !private ["6Charts8NSUIViewC", "xAxis"]
+- !private ["So15NumberFormatterC", "init"]
+- !private ["So15NumberFormatterC", "locale"]
+- !private ["So15NumberFormatterC", "numberStyle"]
+- !private ["So15NumberFormatterC", "string"]
+- !private ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "currency"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Int"]
+- !private ["7RxSwift18ReactiveCompatibleP", "LineChartXAxisFormatter"]
+- !private ["7RxSwift18ReactiveCompatibleP", "LineChartYAxisFormatter"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Locale"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSNumber"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NumberFormatter"]
+- !private ["7RxSwift18ReactiveCompatibleP", "XAxis"]
+- !private ["7RxSwift18ReactiveCompatibleP", "YAxis"]
+- !private ["7RxSwift18ReactiveCompatibleP", "data"]
+- !private ["7RxSwift18ReactiveCompatibleP", "formatter"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "labels"]
+- !private ["7RxSwift18ReactiveCompatibleP", "leftAxis"]
+- !private ["7RxSwift18ReactiveCompatibleP", "locale"]
+- !private ["7RxSwift18ReactiveCompatibleP", "numberStyle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "string"]
+- !private ["7RxSwift18ReactiveCompatibleP", "stringForValue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "valueFormatter"]
+- !private ["7RxSwift18ReactiveCompatibleP", "xAxis"]
+- !private ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["So15NumberFormatterC5StyleO", "currency"]
+- !private ["So29UIAccessibilityIdentificationP", "Int"]
+- !private ["So29UIAccessibilityIdentificationP", "LineChartXAxisFormatter"]
+- !private ["So29UIAccessibilityIdentificationP", "LineChartYAxisFormatter"]
+- !private ["So29UIAccessibilityIdentificationP", "Locale"]
+- !private ["So29UIAccessibilityIdentificationP", "NSNumber"]
+- !private ["So29UIAccessibilityIdentificationP", "NumberFormatter"]
+- !private ["So29UIAccessibilityIdentificationP", "XAxis"]
+- !private ["So29UIAccessibilityIdentificationP", "YAxis"]
+- !private ["So29UIAccessibilityIdentificationP", "data"]
+- !private ["So29UIAccessibilityIdentificationP", "leftAxis"]
+- !private ["So29UIAccessibilityIdentificationP", "xAxis"]
+- !private ["So12UIAppearanceP", "Int"]
+- !private ["So12UIAppearanceP", "LineChartXAxisFormatter"]
+- !private ["So12UIAppearanceP", "LineChartYAxisFormatter"]
+- !private ["So12UIAppearanceP", "Locale"]
+- !private ["So12UIAppearanceP", "NSNumber"]
+- !private ["So12UIAppearanceP", "NumberFormatter"]
+- !private ["So12UIAppearanceP", "XAxis"]
+- !private ["So12UIAppearanceP", "YAxis"]
+- !private ["So12UIAppearanceP", "data"]
+- !private ["So12UIAppearanceP", "leftAxis"]
+- !private ["So12UIAppearanceP", "xAxis"]
+- !private ["So21UIAppearanceContainerP", "Int"]
+- !private ["So21UIAppearanceContainerP", "LineChartXAxisFormatter"]
+- !private ["So21UIAppearanceContainerP", "LineChartYAxisFormatter"]
+- !private ["So21UIAppearanceContainerP", "Locale"]
+- !private ["So21UIAppearanceContainerP", "NSNumber"]
+- !private ["So21UIAppearanceContainerP", "NumberFormatter"]
+- !private ["So21UIAppearanceContainerP", "XAxis"]
+- !private ["So21UIAppearanceContainerP", "YAxis"]
+- !private ["So21UIAppearanceContainerP", "data"]
+- !private ["So21UIAppearanceContainerP", "leftAxis"]
+- !private ["So21UIAppearanceContainerP", "xAxis"]
+- !private ["So17UICoordinateSpaceP", "Int"]
+- !private ["So17UICoordinateSpaceP", "LineChartXAxisFormatter"]
+- !private ["So17UICoordinateSpaceP", "LineChartYAxisFormatter"]
+- !private ["So17UICoordinateSpaceP", "Locale"]
+- !private ["So17UICoordinateSpaceP", "NSNumber"]
+- !private ["So17UICoordinateSpaceP", "NumberFormatter"]
+- !private ["So17UICoordinateSpaceP", "XAxis"]
+- !private ["So17UICoordinateSpaceP", "YAxis"]
+- !private ["So17UICoordinateSpaceP", "data"]
+- !private ["So17UICoordinateSpaceP", "leftAxis"]
+- !private ["So17UICoordinateSpaceP", "xAxis"]
+- !private ["So13UIDynamicItemP", "Int"]
+- !private ["So13UIDynamicItemP", "LineChartXAxisFormatter"]
+- !private ["So13UIDynamicItemP", "LineChartYAxisFormatter"]
+- !private ["So13UIDynamicItemP", "Locale"]
+- !private ["So13UIDynamicItemP", "NSNumber"]
+- !private ["So13UIDynamicItemP", "NumberFormatter"]
+- !private ["So13UIDynamicItemP", "XAxis"]
+- !private ["So13UIDynamicItemP", "YAxis"]
+- !private ["So13UIDynamicItemP", "data"]
+- !private ["So13UIDynamicItemP", "leftAxis"]
+- !private ["So13UIDynamicItemP", "xAxis"]
+- !private ["So18UIFocusEnvironmentP", "Int"]
+- !private ["So18UIFocusEnvironmentP", "LineChartXAxisFormatter"]
+- !private ["So18UIFocusEnvironmentP", "LineChartYAxisFormatter"]
+- !private ["So18UIFocusEnvironmentP", "Locale"]
+- !private ["So18UIFocusEnvironmentP", "NSNumber"]
+- !private ["So18UIFocusEnvironmentP", "NumberFormatter"]
+- !private ["So18UIFocusEnvironmentP", "XAxis"]
+- !private ["So18UIFocusEnvironmentP", "YAxis"]
+- !private ["So18UIFocusEnvironmentP", "data"]
+- !private ["So18UIFocusEnvironmentP", "leftAxis"]
+- !private ["So18UIFocusEnvironmentP", "xAxis"]
+- !private ["So11UIFocusItemP", "Int"]
+- !private ["So11UIFocusItemP", "LineChartXAxisFormatter"]
+- !private ["So11UIFocusItemP", "LineChartYAxisFormatter"]
+- !private ["So11UIFocusItemP", "Locale"]
+- !private ["So11UIFocusItemP", "NSNumber"]
+- !private ["So11UIFocusItemP", "NumberFormatter"]
+- !private ["So11UIFocusItemP", "XAxis"]
+- !private ["So11UIFocusItemP", "YAxis"]
+- !private ["So11UIFocusItemP", "data"]
+- !private ["So11UIFocusItemP", "leftAxis"]
+- !private ["So11UIFocusItemP", "xAxis"]
+- !private ["So27UIGestureRecognizerDelegateP", "Int"]
+- !private ["So27UIGestureRecognizerDelegateP", "LineChartXAxisFormatter"]
+- !private ["So27UIGestureRecognizerDelegateP", "LineChartYAxisFormatter"]
+- !private ["So27UIGestureRecognizerDelegateP", "Locale"]
+- !private ["So27UIGestureRecognizerDelegateP", "NSNumber"]
+- !private ["So27UIGestureRecognizerDelegateP", "NumberFormatter"]
+- !private ["So27UIGestureRecognizerDelegateP", "XAxis"]
+- !private ["So27UIGestureRecognizerDelegateP", "YAxis"]
+- !private ["So27UIGestureRecognizerDelegateP", "data"]
+- !private ["So27UIGestureRecognizerDelegateP", "leftAxis"]
+- !private ["So27UIGestureRecognizerDelegateP", "xAxis"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int"]
+- !private ["So30UIPasteConfigurationSupportingP", "LineChartXAxisFormatter"]
+- !private ["So30UIPasteConfigurationSupportingP", "LineChartYAxisFormatter"]
+- !private ["So30UIPasteConfigurationSupportingP", "Locale"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSNumber"]
+- !private ["So30UIPasteConfigurationSupportingP", "NumberFormatter"]
+- !private ["So30UIPasteConfigurationSupportingP", "XAxis"]
+- !private ["So30UIPasteConfigurationSupportingP", "YAxis"]
+- !private ["So30UIPasteConfigurationSupportingP", "data"]
+- !private ["So30UIPasteConfigurationSupportingP", "leftAxis"]
+- !private ["So30UIPasteConfigurationSupportingP", "xAxis"]
+- ["So11UIResponderC", "AxisBase"]
+- ["So11UIResponderC", "Double"]
+- !private ["So11UIResponderC", "IAxisValueFormatter"]
+- !private ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "LineChartData"]
+- !private ["So11UIResponderC", "LineChartXAxisFormatter"]
+- !private ["So11UIResponderC", "LineChartYAxisFormatter"]
+- !private ["So11UIResponderC", "Locale"]
+- !private ["So11UIResponderC", "NSNumber"]
+- !private ["So11UIResponderC", "NSObject"]
+- !private ["So11UIResponderC", "NumberFormatter"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "XAxis"]
+- !private ["So11UIResponderC", "YAxis"]
+- !private ["So11UIResponderC", "data"]
+- !private ["So11UIResponderC", "leftAxis"]
+- ["So11UIResponderC", "setLineChartData"]
+- !private ["So11UIResponderC", "xAxis"]
+- !private ["So30UIResponderStandardEditActionsP", "Int"]
+- !private ["So30UIResponderStandardEditActionsP", "LineChartXAxisFormatter"]
+- !private ["So30UIResponderStandardEditActionsP", "LineChartYAxisFormatter"]
+- !private ["So30UIResponderStandardEditActionsP", "Locale"]
+- !private ["So30UIResponderStandardEditActionsP", "NSNumber"]
+- !private ["So30UIResponderStandardEditActionsP", "NumberFormatter"]
+- !private ["So30UIResponderStandardEditActionsP", "XAxis"]
+- !private ["So30UIResponderStandardEditActionsP", "YAxis"]
+- !private ["So30UIResponderStandardEditActionsP", "data"]
+- !private ["So30UIResponderStandardEditActionsP", "leftAxis"]
+- !private ["So30UIResponderStandardEditActionsP", "xAxis"]
+- !private ["So18UITraitEnvironmentP", "Int"]
+- !private ["So18UITraitEnvironmentP", "LineChartXAxisFormatter"]
+- !private ["So18UITraitEnvironmentP", "LineChartYAxisFormatter"]
+- !private ["So18UITraitEnvironmentP", "Locale"]
+- !private ["So18UITraitEnvironmentP", "NSNumber"]
+- !private ["So18UITraitEnvironmentP", "NumberFormatter"]
+- !private ["So18UITraitEnvironmentP", "XAxis"]
+- !private ["So18UITraitEnvironmentP", "YAxis"]
+- !private ["So18UITraitEnvironmentP", "data"]
+- !private ["So18UITraitEnvironmentP", "leftAxis"]
+- !private ["So18UITraitEnvironmentP", "xAxis"]
+- ["So6UIViewC", "AxisBase"]
+- ["So6UIViewC", "Double"]
+- !private ["So6UIViewC", "IAxisValueFormatter"]
+- !private ["So6UIViewC", "Int"]
+- ["So6UIViewC", "LineChartData"]
+- !private ["So6UIViewC", "LineChartXAxisFormatter"]
+- !private ["So6UIViewC", "LineChartYAxisFormatter"]
+- !private ["So6UIViewC", "Locale"]
+- !private ["So6UIViewC", "NSNumber"]
+- !private ["So6UIViewC", "NSObject"]
+- !private ["So6UIViewC", "NumberFormatter"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "XAxis"]
+- !private ["So6UIViewC", "YAxis"]
+- !private ["So6UIViewC", "data"]
+- !private ["So6UIViewC", "leftAxis"]
+- ["So6UIViewC", "setLineChartData"]
+- !private ["So6UIViewC", "xAxis"]
+- !private ["6Charts5XAxisC", "init"]
+- !private ["6Charts5XAxisC", "valueFormatter"]
+- !private ["6Charts5YAxisC", "init"]
+- !private ["6Charts5YAxisC", "valueFormatter"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "Int"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "LineChartXAxisFormatter"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "LineChartYAxisFormatter"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "Locale"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "NSNumber"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "NumberFormatter"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "XAxis"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "YAxis"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "data"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "leftAxis"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "xAxis"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LineChartXAxisFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LineChartYAxisFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NumberFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XAxis"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "YAxis"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "formatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "labels"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftAxis"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stringForValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "valueFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "xAxis"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s11_StrideableP", "init"]
+depends-nominal:
+- !private "6Charts16AnimatorDelegateP"
+- !private "Sa"
+- !private "6Charts8AxisBaseC"
+- "6Charts20BarLineChartViewBaseC"
+- !private "6Charts43BarLineScatterCandleBubbleChartDataProviderP"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "6Charts17ChartDataProviderP"
+- "6Charts13ChartViewBaseC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "6Charts13ComponentBaseC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "So9FormatterC"
+- !private "s8HashableP"
+- !private "6Charts19IAxisValueFormatterP"
+- !private "Si"
+- !private "7RxCocoa16KVORepresentableP"
+- !private "6Charts21LineChartDataProviderP"
+- "6Charts13LineChartViewC"
+- !private "10Foundation6LocaleV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So20NSFetchRequestResultP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "6Charts8NSUIViewC"
+- !private "So15NumberFormatterC"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "So15NumberFormatterC5StyleO"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "6Charts5XAxisC"
+- !private "6Charts5YAxisC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Modules/RxAlamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit+MessageUI.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DateTools-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriod.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+A2DynamicDelegate.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/A2DynamicDelegate.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+A2BlockDelegate.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriodChain.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/A2BlockInvocation.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+BKBlockObservation.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriodCollection.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+BKBlockExecution.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriodGroup.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTError.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/NSDate+DateTools.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DateTools.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BKMacros.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+BKAssociatedObjects.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTConstants.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit+UIKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UITextField+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSCache+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIControl+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIBarButtonItem+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSInvocation+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSURLConnection+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIImagePickerController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIPopoverController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/MFMessageComposeViewController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/MFMailComposeViewController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSTimer+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIGestureRecognizer+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSOrderedSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableOrderedSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSIndexSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableIndexSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIActionSheet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIView+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIWebView+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIAlertView+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSArray+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableArray+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSDictionary+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableDictionary+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+interface-hash: "32a8dfe2c62667227c165e275d7e39d7"

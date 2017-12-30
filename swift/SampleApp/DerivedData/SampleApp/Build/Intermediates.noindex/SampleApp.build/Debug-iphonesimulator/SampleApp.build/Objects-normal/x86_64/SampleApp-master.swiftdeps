@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "d9c96d2158c91fb296e6b0386da33d0a"
+build_time: [1514558990, 706784000]
+inputs:
+  "/Users/seanodonnell/development/git-repos/swift/SampleApp/SampleApp/LineChartViewExt.swift": [1514558543, 0]
+  "/Users/seanodonnell/development/git-repos/swift/SampleApp/SampleApp/PickerViewModel.swift": [1514153622, 0]
+  "/Users/seanodonnell/development/git-repos/swift/SampleApp/SampleApp/ViewController.swift": [1514558990, 0]
+  "/Users/seanodonnell/development/git-repos/swift/SampleApp/SampleApp/DateRangePickerView.swift": [1514558543, 0]
+  "/Users/seanodonnell/development/git-repos/swift/SampleApp/SampleApp/ViewModel.swift": [1514557951, 0]
+  "/Users/seanodonnell/development/git-repos/swift/SampleApp/SampleApp/GraphViewController.swift": [1514242202, 0]
+  "/Users/seanodonnell/development/git-repos/swift/SampleApp/SampleApp/Api.swift": [1514558543, 0]
+  "/Users/seanodonnell/development/git-repos/swift/SampleApp/SampleApp/AppDelegate.swift": [1514156642, 0]

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Darwin</string>
+	<string>Cocoa</string>
+	<string>SwiftShims</string>
+	<string>CDispatch</string>
+	<string>CwlCatchExceptionSupport</string>
+	<string>objc</string>
+	<string>CoreData</string>
+	<string>arpa</string>
+	<string>CwlMachBadInstructionHandler</string>
+	<string>CoreFoundation</string>
+	<string>MobileCoreServices</string>
+	<string>MessageUI</string>
+	<string>DateTools</string>
+	<string>Nimble</string>
+	<string>netinet6</string>
+	<string>CoreServices</string>
+	<string>RxCocoa</string>
+	<string>RxSwift</string>
+	<string>Charts</string>
+	<string>BlocksKit</string>
+	<string>RxCocoaRuntime</string>
+	<string>Specta</string>
+	<string>libkern</string>
+	<string>Glibc</string>
+	<string>KIF</string>
+	<string>dispatch</string>
+	<string>SampleApp</string>
+	<string>Quick</string>
+	<string>XCTest</string>
+	<string>Dispatch</string>
+	<string>WatchKit</string>
+	<string>Foundation</string>
+	<string>Security</string>
+	<string>mach</string>
+	<string>QuartzCore</string>
+	<string>AppKit</string>
+	<string>Alamofire</string>
+	<string>Expecta</string>
+	<string>netinet</string>
+	<string>Swift</string>
+	<string>SystemConfiguration</string>
+	<string>CoreGraphics</string>
+	<string>Quartz</string>
+	<string>UIKit</string>
+	<string>RxAlamofire</string>
+</array>
+</plist>

@@ -1,0 +1,1158 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "9SampleApp14ViewControllerC"
+provides-member:
+- ["9SampleApp14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "graphVm"
+- "viewDidLoad"
+- "vm"
+depends-top-level:
+- !private "!"
+- !private ">"
+- !private "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "Bool"
+- !private "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "DateRangePickerView"
+- !private "Dictionary"
+- "DisposeBag"
+- !private "GraphViewController"
+- "NSCoder"
+- !private "NSDate"
+- !private "NSLayoutConstraint"
+- !private "NSLocalizedString"
+- "PickerViewModel"
+- !private "String"
+- !private "StringLiteralType"
+- !private "UIColor"
+- !private "UIFont"
+- !private "UILabel"
+- "UIViewController"
+- "ViewController"
+- "ViewModel"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "addConstraint"]
+- !private ["So15CALayerDelegateP", "addConstraints"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "font"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "numberOfLines"]
+- !private ["So15CALayerDelegateP", "rx"]
+- !private ["So15CALayerDelegateP", "submitButton"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textAlignment"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "DateRangePickerView"]
+- ["s7CVarArgP", "DisposeBag"]
+- !private ["s7CVarArgP", "GraphViewController"]
+- !private ["s7CVarArgP", "NSLayoutConstraint"]
+- !private ["s7CVarArgP", "NSLocalizedString"]
+- !private ["s7CVarArgP", "PickerViewModel"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIFont"]
+- !private ["s7CVarArgP", "UILabel"]
+- !private ["s7CVarArgP", "ViewModel"]
+- !private ["s7CVarArgP", "addConstraint"]
+- !private ["s7CVarArgP", "addConstraints"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "boldSystemFont"]
+- !private ["s7CVarArgP", "bpiData"]
+- !private ["s7CVarArgP", "constraints"]
+- !private ["s7CVarArgP", "days"]
+- !private ["s7CVarArgP", "disposeBag"]
+- !private ["s7CVarArgP", "endDate"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "getBpiData"]
+- !private ["s7CVarArgP", "graphVm"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "numberOfLines"]
+- !private ["s7CVarArgP", "purple"]
+- !private ["s7CVarArgP", "pushViewController"]
+- !private ["s7CVarArgP", "rx"]
+- !private ["s7CVarArgP", "startDate"]
+- !private ["s7CVarArgP", "submitButton"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textAlignment"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "vm"]
+- !private ["s7CVarArgP", "white"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10ComparableP", "init"]
+- !private ["7RxCocoa12ControlEventV", "filter"]
+- !private ["7RxCocoa16ControlEventTypeP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "DateRangePickerView"]
+- ["s28CustomDebugStringConvertibleP", "DisposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "GraphViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLocalizedString"]
+- !private ["s28CustomDebugStringConvertibleP", "PickerViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- !private ["s28CustomDebugStringConvertibleP", "UILabel"]
+- !private ["s28CustomDebugStringConvertibleP", "ViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "addConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "addConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "boldSystemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "bpiData"]
+- !private ["s28CustomDebugStringConvertibleP", "constraints"]
+- !private ["s28CustomDebugStringConvertibleP", "days"]
+- !private ["s28CustomDebugStringConvertibleP", "disposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "endDate"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "getBpiData"]
+- !private ["s28CustomDebugStringConvertibleP", "graphVm"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfLines"]
+- !private ["s28CustomDebugStringConvertibleP", "purple"]
+- !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "rx"]
+- !private ["s28CustomDebugStringConvertibleP", "startDate"]
+- !private ["s28CustomDebugStringConvertibleP", "submitButton"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textAlignment"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "vm"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "days"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "DateRangePickerView"]
+- ["s23CustomStringConvertibleP", "DisposeBag"]
+- !private ["s23CustomStringConvertibleP", "GraphViewController"]
+- !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s23CustomStringConvertibleP", "NSLocalizedString"]
+- !private ["s23CustomStringConvertibleP", "PickerViewModel"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "UILabel"]
+- !private ["s23CustomStringConvertibleP", "ViewModel"]
+- !private ["s23CustomStringConvertibleP", "addConstraint"]
+- !private ["s23CustomStringConvertibleP", "addConstraints"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "boldSystemFont"]
+- !private ["s23CustomStringConvertibleP", "bpiData"]
+- !private ["s23CustomStringConvertibleP", "constraints"]
+- !private ["s23CustomStringConvertibleP", "days"]
+- !private ["s23CustomStringConvertibleP", "disposeBag"]
+- !private ["s23CustomStringConvertibleP", "endDate"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "getBpiData"]
+- !private ["s23CustomStringConvertibleP", "graphVm"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "numberOfLines"]
+- !private ["s23CustomStringConvertibleP", "purple"]
+- !private ["s23CustomStringConvertibleP", "pushViewController"]
+- !private ["s23CustomStringConvertibleP", "rx"]
+- !private ["s23CustomStringConvertibleP", "startDate"]
+- !private ["s23CustomStringConvertibleP", "submitButton"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textAlignment"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "vm"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["9SampleApp19DateRangePickerViewC", "deinit"]
+- !private ["9SampleApp19DateRangePickerViewC", "init"]
+- !private ["9SampleApp19DateRangePickerViewC", "submitButton"]
+- !private ["9SampleApp19DateRangePickerViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s10DictionaryV", "isEmpty"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EquatableP", "DateRangePickerView"]
+- ["s9EquatableP", "DisposeBag"]
+- !private ["s9EquatableP", "GraphViewController"]
+- !private ["s9EquatableP", "NSLayoutConstraint"]
+- !private ["s9EquatableP", "NSLocalizedString"]
+- !private ["s9EquatableP", "PickerViewModel"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIFont"]
+- !private ["s9EquatableP", "UILabel"]
+- !private ["s9EquatableP", "ViewModel"]
+- !private ["s9EquatableP", "addConstraint"]
+- !private ["s9EquatableP", "addConstraints"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "boldSystemFont"]
+- !private ["s9EquatableP", "bpiData"]
+- !private ["s9EquatableP", "center"]
+- !private ["s9EquatableP", "centerX"]
+- !private ["s9EquatableP", "centerY"]
+- !private ["s9EquatableP", "constraints"]
+- !private ["s9EquatableP", "days"]
+- !private ["s9EquatableP", "disposeBag"]
+- !private ["s9EquatableP", "endDate"]
+- !private ["s9EquatableP", "equal"]
+- !private ["s9EquatableP", "font"]
+- !private ["s9EquatableP", "getBpiData"]
+- !private ["s9EquatableP", "graphVm"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "navigationController"]
+- !private ["s9EquatableP", "numberOfLines"]
+- !private ["s9EquatableP", "purple"]
+- !private ["s9EquatableP", "pushViewController"]
+- !private ["s9EquatableP", "rx"]
+- !private ["s9EquatableP", "startDate"]
+- !private ["s9EquatableP", "submitButton"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "textAlignment"]
+- !private ["s9EquatableP", "textColor"]
+- !private ["s9EquatableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "vm"]
+- !private ["s9EquatableP", "white"]
+- ["s9EquatableP", ""]
+- !private ["s30ExpressibleByDictionaryLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["9SampleApp19GraphViewControllerC", "deinit"]
+- !private ["9SampleApp19GraphViewControllerC", "init"]
+- !private ["7RxCocoa11HasDelegateP", "pushViewController"]
+- !private ["s8HashableP", "DateRangePickerView"]
+- ["s8HashableP", "DisposeBag"]
+- !private ["s8HashableP", "GraphViewController"]
+- !private ["s8HashableP", "NSLayoutConstraint"]
+- !private ["s8HashableP", "NSLocalizedString"]
+- !private ["s8HashableP", "PickerViewModel"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIFont"]
+- !private ["s8HashableP", "UILabel"]
+- !private ["s8HashableP", "ViewModel"]
+- !private ["s8HashableP", "addConstraint"]
+- !private ["s8HashableP", "addConstraints"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "boldSystemFont"]
+- !private ["s8HashableP", "bpiData"]
+- !private ["s8HashableP", "center"]
+- !private ["s8HashableP", "centerX"]
+- !private ["s8HashableP", "centerY"]
+- !private ["s8HashableP", "constraints"]
+- !private ["s8HashableP", "days"]
+- !private ["s8HashableP", "disposeBag"]
+- !private ["s8HashableP", "endDate"]
+- !private ["s8HashableP", "equal"]
+- !private ["s8HashableP", "font"]
+- !private ["s8HashableP", "getBpiData"]
+- !private ["s8HashableP", "graphVm"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "navigationController"]
+- !private ["s8HashableP", "numberOfLines"]
+- !private ["s8HashableP", "purple"]
+- !private ["s8HashableP", "pushViewController"]
+- !private ["s8HashableP", "rx"]
+- !private ["s8HashableP", "startDate"]
+- !private ["s8HashableP", "submitButton"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "textAlignment"]
+- !private ["s8HashableP", "textColor"]
+- !private ["s8HashableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "vm"]
+- !private ["s8HashableP", "white"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "DateRangePickerView"]
+- ["So8NSCodingP", "DisposeBag"]
+- !private ["So8NSCodingP", "GraphViewController"]
+- !private ["So8NSCodingP", "NSLayoutConstraint"]
+- !private ["So8NSCodingP", "NSLocalizedString"]
+- !private ["So8NSCodingP", "PickerViewModel"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIFont"]
+- !private ["So8NSCodingP", "UILabel"]
+- !private ["So8NSCodingP", "ViewModel"]
+- !private ["So8NSCodingP", "addConstraint"]
+- !private ["So8NSCodingP", "addConstraints"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "days"]
+- !private ["So8NSCodingP", "font"]
+- !private ["So8NSCodingP", "graphVm"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "numberOfLines"]
+- !private ["So8NSCodingP", "purple"]
+- !private ["So8NSCodingP", "pushViewController"]
+- !private ["So8NSCodingP", "rx"]
+- !private ["So8NSCodingP", "submitButton"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textAlignment"]
+- !private ["So8NSCodingP", "textColor"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "vm"]
+- !private ["So8NSCodingP", "white"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "boldSystemFont"]
+- !private ["So9NSCopyingP", "days"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "purple"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So6NSDateC", "days"]
+- !private ["So26NSExtensionRequestHandlingP", "DateRangePickerView"]
+- ["So26NSExtensionRequestHandlingP", "DisposeBag"]
+- !private ["So26NSExtensionRequestHandlingP", "GraphViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "NSLayoutConstraint"]
+- !private ["So26NSExtensionRequestHandlingP", "NSLocalizedString"]
+- !private ["So26NSExtensionRequestHandlingP", "PickerViewModel"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UIFont"]
+- !private ["So26NSExtensionRequestHandlingP", "UILabel"]
+- !private ["So26NSExtensionRequestHandlingP", "ViewModel"]
+- !private ["So26NSExtensionRequestHandlingP", "graphVm"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "vm"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "purple"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "purple"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["SC17NSLayoutAttributeO", "centerX"]
+- !private ["SC17NSLayoutAttributeO", "centerY"]
+- !private ["So18NSLayoutConstraintC", "constraints"]
+- !private ["So18NSLayoutConstraintC", "init"]
+- !private ["SC16NSLayoutRelationO", "equal"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "DateRangePickerView"]
+- ["So8NSObjectC", "DisposeBag"]
+- !private ["So8NSObjectC", "GraphViewController"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "NSDate"]
+- !private ["So8NSObjectC", "NSLayoutConstraint"]
+- !private ["So8NSObjectC", "NSLocalizedString"]
+- ["So8NSObjectC", "PickerViewModel"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "ViewModel"]
+- !private ["So8NSObjectC", "addConstraint"]
+- !private ["So8NSObjectC", "addConstraints"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "boldSystemFont"]
+- !private ["So8NSObjectC", "bpiData"]
+- !private ["So8NSObjectC", "constraints"]
+- !private ["So8NSObjectC", "days"]
+- ["So8NSObjectC", "disposeBag"]
+- !private ["So8NSObjectC", "endDate"]
+- !private ["So8NSObjectC", "font"]
+- !private ["So8NSObjectC", "getBpiData"]
+- ["So8NSObjectC", "graphVm"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "numberOfLines"]
+- !private ["So8NSObjectC", "purple"]
+- !private ["So8NSObjectC", "pushViewController"]
+- !private ["So8NSObjectC", "rx"]
+- !private ["So8NSObjectC", "startDate"]
+- !private ["So8NSObjectC", "submitButton"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textAlignment"]
+- !private ["So8NSObjectC", "textColor"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "vm"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So16NSObjectProtocolP", "DateRangePickerView"]
+- ["So16NSObjectProtocolP", "DisposeBag"]
+- !private ["So16NSObjectProtocolP", "GraphViewController"]
+- !private ["So16NSObjectProtocolP", "NSLayoutConstraint"]
+- !private ["So16NSObjectProtocolP", "NSLocalizedString"]
+- !private ["So16NSObjectProtocolP", "PickerViewModel"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIFont"]
+- !private ["So16NSObjectProtocolP", "UILabel"]
+- !private ["So16NSObjectProtocolP", "ViewModel"]
+- !private ["So16NSObjectProtocolP", "addConstraint"]
+- !private ["So16NSObjectProtocolP", "addConstraints"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "boldSystemFont"]
+- !private ["So16NSObjectProtocolP", "bpiData"]
+- !private ["So16NSObjectProtocolP", "constraints"]
+- !private ["So16NSObjectProtocolP", "days"]
+- !private ["So16NSObjectProtocolP", "disposeBag"]
+- !private ["So16NSObjectProtocolP", "endDate"]
+- !private ["So16NSObjectProtocolP", "font"]
+- !private ["So16NSObjectProtocolP", "getBpiData"]
+- !private ["So16NSObjectProtocolP", "graphVm"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "navigationController"]
+- !private ["So16NSObjectProtocolP", "numberOfLines"]
+- !private ["So16NSObjectProtocolP", "purple"]
+- !private ["So16NSObjectProtocolP", "pushViewController"]
+- !private ["So16NSObjectProtocolP", "rx"]
+- !private ["So16NSObjectProtocolP", "startDate"]
+- !private ["So16NSObjectProtocolP", "submitButton"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "textAlignment"]
+- !private ["So16NSObjectProtocolP", "textColor"]
+- !private ["So16NSObjectProtocolP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "vm"]
+- !private ["So16NSObjectProtocolP", "white"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "days"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "purple"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["So8NSStringC", "init"]
+- !private ["SC15NSTextAlignmentO", "center"]
+- !private ["7RxSwift10ObservableC", "filter"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "filter"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "filter"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["9SampleApp15PickerViewModelC", "disposeBag"]
+- !private ["9SampleApp15PickerViewModelC", "endDate"]
+- !private ["9SampleApp15PickerViewModelC", "init"]
+- !private ["9SampleApp15PickerViewModelC", "startDate"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "center"]
+- !private ["s16RawRepresentableP", "centerX"]
+- !private ["s16RawRepresentableP", "centerY"]
+- !private ["s16RawRepresentableP", "equal"]
+- !private ["7RxSwift8ReactiveV", "tap"]
+- !private ["7RxSwift18ReactiveCompatibleP", "DateRangePickerView"]
+- ["7RxSwift18ReactiveCompatibleP", "DisposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "GraphViewController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSLayoutConstraint"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSLocalizedString"]
+- !private ["7RxSwift18ReactiveCompatibleP", "PickerViewModel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIFont"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UILabel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "ViewModel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addConstraint"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addConstraints"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addSubview"]
+- !private ["7RxSwift18ReactiveCompatibleP", "backgroundColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "boldSystemFont"]
+- !private ["7RxSwift18ReactiveCompatibleP", "bpiData"]
+- !private ["7RxSwift18ReactiveCompatibleP", "constraints"]
+- !private ["7RxSwift18ReactiveCompatibleP", "days"]
+- !private ["7RxSwift18ReactiveCompatibleP", "disposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "endDate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "font"]
+- !private ["7RxSwift18ReactiveCompatibleP", "getBpiData"]
+- !private ["7RxSwift18ReactiveCompatibleP", "graphVm"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "navigationController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "numberOfLines"]
+- !private ["7RxSwift18ReactiveCompatibleP", "purple"]
+- !private ["7RxSwift18ReactiveCompatibleP", "pushViewController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rx"]
+- !private ["7RxSwift18ReactiveCompatibleP", "startDate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "submitButton"]
+- !private ["7RxSwift18ReactiveCompatibleP", "text"]
+- !private ["7RxSwift18ReactiveCompatibleP", "textAlignment"]
+- !private ["7RxSwift18ReactiveCompatibleP", "textColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["7RxSwift18ReactiveCompatibleP", "view"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewDidLoad"]
+- !private ["7RxSwift18ReactiveCompatibleP", "vm"]
+- !private ["7RxSwift18ReactiveCompatibleP", "white"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "rx"]
+- !private ["So29UIAccessibilityIdentificationP", "addConstraint"]
+- !private ["So29UIAccessibilityIdentificationP", "addConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "font"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "numberOfLines"]
+- !private ["So29UIAccessibilityIdentificationP", "rx"]
+- !private ["So29UIAccessibilityIdentificationP", "submitButton"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textAlignment"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So12UIAppearanceP", "addConstraint"]
+- !private ["So12UIAppearanceP", "addConstraints"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "font"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "numberOfLines"]
+- !private ["So12UIAppearanceP", "rx"]
+- !private ["So12UIAppearanceP", "submitButton"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textAlignment"]
+- !private ["So12UIAppearanceP", "textColor"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21UIAppearanceContainerP", "DateRangePickerView"]
+- ["So21UIAppearanceContainerP", "DisposeBag"]
+- !private ["So21UIAppearanceContainerP", "GraphViewController"]
+- !private ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
+- !private ["So21UIAppearanceContainerP", "NSLocalizedString"]
+- !private ["So21UIAppearanceContainerP", "PickerViewModel"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIFont"]
+- !private ["So21UIAppearanceContainerP", "UILabel"]
+- !private ["So21UIAppearanceContainerP", "ViewModel"]
+- !private ["So21UIAppearanceContainerP", "addConstraint"]
+- !private ["So21UIAppearanceContainerP", "addConstraints"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "font"]
+- !private ["So21UIAppearanceContainerP", "graphVm"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "numberOfLines"]
+- !private ["So21UIAppearanceContainerP", "pushViewController"]
+- !private ["So21UIAppearanceContainerP", "rx"]
+- !private ["So21UIAppearanceContainerP", "submitButton"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textAlignment"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "vm"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So8UIButtonC", "rx"]
+- !private ["So7UIColorC", "purple"]
+- !private ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "DateRangePickerView"]
+- ["So18UIContentContainerP", "DisposeBag"]
+- !private ["So18UIContentContainerP", "GraphViewController"]
+- !private ["So18UIContentContainerP", "NSLayoutConstraint"]
+- !private ["So18UIContentContainerP", "NSLocalizedString"]
+- !private ["So18UIContentContainerP", "PickerViewModel"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UIFont"]
+- !private ["So18UIContentContainerP", "UILabel"]
+- !private ["So18UIContentContainerP", "ViewModel"]
+- !private ["So18UIContentContainerP", "graphVm"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "pushViewController"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "vm"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "font"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "numberOfLines"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textAlignment"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So9UIControlC", "rx"]
+- !private ["So17UICoordinateSpaceP", "addConstraint"]
+- !private ["So17UICoordinateSpaceP", "addConstraints"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "font"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "numberOfLines"]
+- !private ["So17UICoordinateSpaceP", "rx"]
+- !private ["So17UICoordinateSpaceP", "submitButton"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textAlignment"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So13UIDynamicItemP", "addConstraint"]
+- !private ["So13UIDynamicItemP", "addConstraints"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "font"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "numberOfLines"]
+- !private ["So13UIDynamicItemP", "rx"]
+- !private ["So13UIDynamicItemP", "submitButton"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textAlignment"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UIFocusEnvironmentP", "DateRangePickerView"]
+- ["So18UIFocusEnvironmentP", "DisposeBag"]
+- !private ["So18UIFocusEnvironmentP", "GraphViewController"]
+- !private ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
+- !private ["So18UIFocusEnvironmentP", "NSLocalizedString"]
+- !private ["So18UIFocusEnvironmentP", "PickerViewModel"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIFont"]
+- !private ["So18UIFocusEnvironmentP", "UILabel"]
+- !private ["So18UIFocusEnvironmentP", "ViewModel"]
+- !private ["So18UIFocusEnvironmentP", "addConstraint"]
+- !private ["So18UIFocusEnvironmentP", "addConstraints"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "font"]
+- !private ["So18UIFocusEnvironmentP", "graphVm"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "numberOfLines"]
+- !private ["So18UIFocusEnvironmentP", "pushViewController"]
+- !private ["So18UIFocusEnvironmentP", "rx"]
+- !private ["So18UIFocusEnvironmentP", "submitButton"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textAlignment"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "vm"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "addConstraint"]
+- !private ["So11UIFocusItemP", "addConstraints"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "font"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "numberOfLines"]
+- !private ["So11UIFocusItemP", "rx"]
+- !private ["So11UIFocusItemP", "submitButton"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textAlignment"]
+- !private ["So11UIFocusItemP", "textColor"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So6UIFontC", "boldSystemFont"]
+- !private ["So7UILabelC", "font"]
+- !private ["So7UILabelC", "init"]
+- !private ["So7UILabelC", "numberOfLines"]
+- !private ["So7UILabelC", "text"]
+- !private ["So7UILabelC", "textAlignment"]
+- !private ["So7UILabelC", "textColor"]
+- !private ["So7UILabelC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So22UINavigationControllerC", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "DateRangePickerView"]
+- ["So30UIPasteConfigurationSupportingP", "DisposeBag"]
+- !private ["So30UIPasteConfigurationSupportingP", "GraphViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLocalizedString"]
+- !private ["So30UIPasteConfigurationSupportingP", "PickerViewModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- !private ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "ViewModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "addConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "addConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "graphVm"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "numberOfLines"]
+- !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "rx"]
+- !private ["So30UIPasteConfigurationSupportingP", "submitButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textAlignment"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "vm"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "AnyObject"]
+- !private ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "DateRangePickerView"]
+- ["So11UIResponderC", "DisposeBag"]
+- !private ["So11UIResponderC", "GraphViewController"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "NSDate"]
+- !private ["So11UIResponderC", "NSLayoutConstraint"]
+- !private ["So11UIResponderC", "NSLocalizedString"]
+- ["So11UIResponderC", "PickerViewModel"]
+- !private ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UIFont"]
+- !private ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "ViewModel"]
+- !private ["So11UIResponderC", "addConstraint"]
+- !private ["So11UIResponderC", "addConstraints"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "disposeBag"]
+- !private ["So11UIResponderC", "font"]
+- ["So11UIResponderC", "graphVm"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "numberOfLines"]
+- !private ["So11UIResponderC", "pushViewController"]
+- !private ["So11UIResponderC", "rx"]
+- !private ["So11UIResponderC", "submitButton"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textAlignment"]
+- !private ["So11UIResponderC", "textColor"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "vm"]
+- !private ["So30UIResponderStandardEditActionsP", "DateRangePickerView"]
+- ["So30UIResponderStandardEditActionsP", "DisposeBag"]
+- !private ["So30UIResponderStandardEditActionsP", "GraphViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLocalizedString"]
+- !private ["So30UIResponderStandardEditActionsP", "PickerViewModel"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIFont"]
+- !private ["So30UIResponderStandardEditActionsP", "UILabel"]
+- !private ["So30UIResponderStandardEditActionsP", "ViewModel"]
+- !private ["So30UIResponderStandardEditActionsP", "addConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "addConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "font"]
+- !private ["So30UIResponderStandardEditActionsP", "graphVm"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "numberOfLines"]
+- !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "rx"]
+- !private ["So30UIResponderStandardEditActionsP", "submitButton"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textAlignment"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "vm"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "rx"]
+- !private ["So16UIStateRestoringP", "DateRangePickerView"]
+- ["So16UIStateRestoringP", "DisposeBag"]
+- !private ["So16UIStateRestoringP", "GraphViewController"]
+- !private ["So16UIStateRestoringP", "NSLayoutConstraint"]
+- !private ["So16UIStateRestoringP", "NSLocalizedString"]
+- !private ["So16UIStateRestoringP", "PickerViewModel"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UIFont"]
+- !private ["So16UIStateRestoringP", "UILabel"]
+- !private ["So16UIStateRestoringP", "ViewModel"]
+- !private ["So16UIStateRestoringP", "graphVm"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "pushViewController"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "vm"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So19UITextFieldDelegateP", "init"]
+- !private ["So19UITextFieldDelegateP", "submitButton"]
+- !private ["So19UITextFieldDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UITraitEnvironmentP", "DateRangePickerView"]
+- ["So18UITraitEnvironmentP", "DisposeBag"]
+- !private ["So18UITraitEnvironmentP", "GraphViewController"]
+- !private ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
+- !private ["So18UITraitEnvironmentP", "NSLocalizedString"]
+- !private ["So18UITraitEnvironmentP", "PickerViewModel"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIFont"]
+- !private ["So18UITraitEnvironmentP", "UILabel"]
+- !private ["So18UITraitEnvironmentP", "ViewModel"]
+- !private ["So18UITraitEnvironmentP", "addConstraint"]
+- !private ["So18UITraitEnvironmentP", "addConstraints"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "font"]
+- !private ["So18UITraitEnvironmentP", "graphVm"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "numberOfLines"]
+- !private ["So18UITraitEnvironmentP", "pushViewController"]
+- !private ["So18UITraitEnvironmentP", "rx"]
+- !private ["So18UITraitEnvironmentP", "submitButton"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textAlignment"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "vm"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "addConstraint"]
+- !private ["So6UIViewC", "addConstraints"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "font"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "numberOfLines"]
+- !private ["So6UIViewC", "rx"]
+- !private ["So6UIViewC", "submitButton"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textAlignment"]
+- !private ["So6UIViewC", "textColor"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16UIViewControllerC", "AnyObject"]
+- !private ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "DateRangePickerView"]
+- ["So16UIViewControllerC", "DisposeBag"]
+- !private ["So16UIViewControllerC", "GraphViewController"]
+- ["So16UIViewControllerC", "NSCoder"]
+- !private ["So16UIViewControllerC", "NSDate"]
+- !private ["So16UIViewControllerC", "NSLayoutConstraint"]
+- !private ["So16UIViewControllerC", "NSLocalizedString"]
+- ["So16UIViewControllerC", "PickerViewModel"]
+- !private ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- !private ["So16UIViewControllerC", "UIFont"]
+- !private ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "ViewModel"]
+- ["So16UIViewControllerC", "disposeBag"]
+- ["So16UIViewControllerC", "graphVm"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "pushViewController"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "vm"]
+- ["So16UIViewControllerC", ""]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["7RxSwift8VariableC", "asObservable"]
+- !private ["7RxSwift8VariableC", "value"]
+- !private ["9SampleApp14ViewControllerC", "AnyObject"]
+- !private ["9SampleApp14ViewControllerC", "Bool"]
+- !private ["9SampleApp14ViewControllerC", "DateRangePickerView"]
+- ["9SampleApp14ViewControllerC", "DisposeBag"]
+- !private ["9SampleApp14ViewControllerC", "GraphViewController"]
+- ["9SampleApp14ViewControllerC", "NSCoder"]
+- !private ["9SampleApp14ViewControllerC", "NSDate"]
+- !private ["9SampleApp14ViewControllerC", "NSLayoutConstraint"]
+- !private ["9SampleApp14ViewControllerC", "NSLocalizedString"]
+- ["9SampleApp14ViewControllerC", "PickerViewModel"]
+- !private ["9SampleApp14ViewControllerC", "String"]
+- !private ["9SampleApp14ViewControllerC", "UIColor"]
+- !private ["9SampleApp14ViewControllerC", "UIFont"]
+- !private ["9SampleApp14ViewControllerC", "UILabel"]
+- ["9SampleApp14ViewControllerC", "ViewModel"]
+- ["9SampleApp14ViewControllerC", "deinit"]
+- ["9SampleApp14ViewControllerC", "disposeBag"]
+- ["9SampleApp14ViewControllerC", "graphVm"]
+- ["9SampleApp14ViewControllerC", "init"]
+- !private ["9SampleApp14ViewControllerC", "navigationController"]
+- !private ["9SampleApp14ViewControllerC", "view"]
+- ["9SampleApp14ViewControllerC", "viewDidLoad"]
+- ["9SampleApp14ViewControllerC", "vm"]
+- !private ["9SampleApp9ViewModelC", "bpiData"]
+- !private ["9SampleApp9ViewModelC", "getBpiData"]
+- !private ["9SampleApp9ViewModelC", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addConstraint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addConstraints"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "font"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "numberOfLines"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rx"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "submitButton"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textAlignment"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "purple"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "days"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "isEmpty"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateRangePickerView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DisposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GraphViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLocalizedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PickerViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UILabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boldSystemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bpiData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "days"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getBpiData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "graphVm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfLines"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "purple"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rx"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "submitButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textAlignment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "7RxCocoa12ControlEventV"
+- !private "7RxCocoa16ControlEventTypeP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9SampleApp19DateRangePickerViewC"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "7RxSwift10DisposableP"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9SampleApp19GraphViewControllerC"
+- !private "7RxCocoa11HasDelegateP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDateC"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "SC17NSLayoutAttributeO"
+- !private "So18NSLayoutConstraintC"
+- !private "SC16NSLayoutRelationO"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "SC15NSTextAlignmentO"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "9SampleApp15PickerViewModelC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "7RxSwift8ReactiveV"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So6UIFontC"
+- !private "So7UILabelC"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So19UITextFieldDelegateP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "7RxSwift8VariableC"
+- "9SampleApp14ViewControllerC"
+- !private "9SampleApp9ViewModelC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Modules/RxAlamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit+MessageUI.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DateTools-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriod.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+A2DynamicDelegate.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/A2DynamicDelegate.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+A2BlockDelegate.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriodChain.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/A2BlockInvocation.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+BKBlockObservation.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriodCollection.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+BKBlockExecution.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriodGroup.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTError.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/NSDate+DateTools.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DateTools.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BKMacros.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+BKAssociatedObjects.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTConstants.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit+UIKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UITextField+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSCache+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIControl+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIBarButtonItem+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSInvocation+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSURLConnection+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIImagePickerController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIPopoverController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/MFMessageComposeViewController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/MFMailComposeViewController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSTimer+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIGestureRecognizer+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSOrderedSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableOrderedSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSIndexSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableIndexSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIActionSheet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIView+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIWebView+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIAlertView+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSArray+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableArray+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSDictionary+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableDictionary+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+interface-hash: "b12128c5b20e7ccfeb8d177b5ea199a6"

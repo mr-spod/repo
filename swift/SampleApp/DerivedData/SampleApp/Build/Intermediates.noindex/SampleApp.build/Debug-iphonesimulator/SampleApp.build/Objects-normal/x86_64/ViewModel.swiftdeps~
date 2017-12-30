@@ -1,0 +1,1111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewModel"
+provides-nominal:
+- "9SampleApp9ViewModelC"
+provides-member:
+- ["9SampleApp9ViewModelC", ""]
+provides-dynamic-lookup:
+- "configDictionary"
+- "dateLabels"
+- "endDate"
+- "getBpiData"
+- "graphData"
+- "startDate"
+depends-top-level:
+- !private "!="
+- !private "+="
+- !private "-="
+- !private "<"
+- !private ">"
+- "AnyObject"
+- !private "Api"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- !private "ChartDataEntry"
+- !private "Data"
+- "Date"
+- "Dictionary"
+- "DisposeBag"
+- !private "Double"
+- !private "Float"
+- !private "JSONSerialization"
+- "LineChartData"
+- !private "LineChartDataSet"
+- !private "NSDate"
+- !private "NSNumber"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- !private "UIColor"
+- !private "URL"
+- "Variable"
+- "ViewModel"
+- !private "Void"
+- !private "print"
+depends-member:
+- !private ["9SampleApp3ApiC", "bpiHistoricalData"]
+- !private ["9SampleApp3ApiC", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "circleRadius"]
+- !private ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "drawCircleHoleEnabled"]
+- !private ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "lineWidth"]
+- !private ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "setCircleColor"]
+- !private ["6Charts38BarLineScatterCandleBubbleChartDataSetC", "setColor"]
+- !private ["s23BidirectionalCollectionP", "Index"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "substring"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6BundleC", "main"]
+- !private ["So6BundleC", "path"]
+- !private ["s7CVarArgP", "Api"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "ChartDataEntry"]
+- !private ["s7CVarArgP", "Data"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "Dictionary"]
+- ["s7CVarArgP", "DisposeBag"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Index"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "LineChartData"]
+- !private ["s7CVarArgP", "LineChartDataSet"]
+- !private ["s7CVarArgP", "NSNumber"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "Variable"]
+- !private ["s7CVarArgP", "ViewModel"]
+- !private ["s7CVarArgP", "addDataSet"]
+- !private ["s7CVarArgP", "addingDays"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "bag"]
+- !private ["s7CVarArgP", "blue"]
+- !private ["s7CVarArgP", "bpiData"]
+- !private ["s7CVarArgP", "bpiDateMap"]
+- !private ["s7CVarArgP", "bpiHistoricalData"]
+- !private ["s7CVarArgP", "circleRadius"]
+- !private ["s7CVarArgP", "copy"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dateKey"]
+- !private ["s7CVarArgP", "dateLabels"]
+- !private ["s7CVarArgP", "days"]
+- !private ["s7CVarArgP", "doubleValue"]
+- !private ["s7CVarArgP", "drawCircleHoleEnabled"]
+- !private ["s7CVarArgP", "endDate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "lineWidth"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "setCircleColor"]
+- !private ["s7CVarArgP", "setColor"]
+- !private ["s7CVarArgP", "startDate"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "substring"]
+- !private ["s7CVarArgP", "subtractingDays"]
+- !private ["s7CVarArgP", "values"]
+- !private ["s7CVarArgP", "white"]
+- ["s7CVarArgP", ""]
+- !private ["6Charts16ChartBaseDataSetC", "circleRadius"]
+- !private ["6Charts16ChartBaseDataSetC", "drawCircleHoleEnabled"]
+- !private ["6Charts16ChartBaseDataSetC", "lineWidth"]
+- !private ["6Charts16ChartBaseDataSetC", "setCircleColor"]
+- !private ["6Charts16ChartBaseDataSetC", "setColor"]
+- !private ["6Charts9ChartDataC", "addDataSet"]
+- !private ["6Charts9ChartDataC", "init"]
+- !private ["6Charts14ChartDataEntryC", "init"]
+- !private ["6Charts12ChartDataSetC", "circleRadius"]
+- !private ["6Charts12ChartDataSetC", "drawCircleHoleEnabled"]
+- !private ["6Charts12ChartDataSetC", "lineWidth"]
+- !private ["6Charts12ChartDataSetC", "setCircleColor"]
+- !private ["6Charts12ChartDataSetC", "setColor"]
+- !private ["s10CollectionP", "Index"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "substring"]
+- !private ["s10ComparableP", "Index"]
+- !private ["s10ComparableP", "description"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "substring"]
+- !private ["s28CustomDebugStringConvertibleP", "Api"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "ChartDataEntry"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "Dictionary"]
+- ["s28CustomDebugStringConvertibleP", "DisposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Index"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "LineChartData"]
+- !private ["s28CustomDebugStringConvertibleP", "LineChartDataSet"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "Variable"]
+- !private ["s28CustomDebugStringConvertibleP", "ViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "addDataSet"]
+- !private ["s28CustomDebugStringConvertibleP", "addingDays"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "bag"]
+- !private ["s28CustomDebugStringConvertibleP", "blue"]
+- !private ["s28CustomDebugStringConvertibleP", "bpiData"]
+- !private ["s28CustomDebugStringConvertibleP", "bpiDateMap"]
+- !private ["s28CustomDebugStringConvertibleP", "bpiHistoricalData"]
+- !private ["s28CustomDebugStringConvertibleP", "circleRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "copy"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dateKey"]
+- !private ["s28CustomDebugStringConvertibleP", "dateLabels"]
+- !private ["s28CustomDebugStringConvertibleP", "days"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
+- !private ["s28CustomDebugStringConvertibleP", "drawCircleHoleEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "endDate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "lineWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "setCircleColor"]
+- !private ["s28CustomDebugStringConvertibleP", "setColor"]
+- !private ["s28CustomDebugStringConvertibleP", "startDate"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "substring"]
+- !private ["s28CustomDebugStringConvertibleP", "subtractingDays"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "values"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "Index"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingDays"]
+- !private ["s29CustomPlaygroundQuickLookableP", "copy"]
+- !private ["s29CustomPlaygroundQuickLookableP", "days"]
+- !private ["s29CustomPlaygroundQuickLookableP", "description"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "substring"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subtractingDays"]
+- !private ["s17CustomReflectableP", "Index"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "substring"]
+- !private ["s23CustomStringConvertibleP", "Api"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "ChartDataEntry"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "Dictionary"]
+- ["s23CustomStringConvertibleP", "DisposeBag"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Index"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "LineChartData"]
+- !private ["s23CustomStringConvertibleP", "LineChartDataSet"]
+- !private ["s23CustomStringConvertibleP", "NSNumber"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "Variable"]
+- !private ["s23CustomStringConvertibleP", "ViewModel"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addDataSet"]
+- !private ["s23CustomStringConvertibleP", "addingDays"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "bag"]
+- !private ["s23CustomStringConvertibleP", "blue"]
+- !private ["s23CustomStringConvertibleP", "bpiData"]
+- !private ["s23CustomStringConvertibleP", "bpiDateMap"]
+- !private ["s23CustomStringConvertibleP", "bpiHistoricalData"]
+- !private ["s23CustomStringConvertibleP", "circleRadius"]
+- !private ["s23CustomStringConvertibleP", "copy"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dateKey"]
+- !private ["s23CustomStringConvertibleP", "dateLabels"]
+- !private ["s23CustomStringConvertibleP", "days"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
+- !private ["s23CustomStringConvertibleP", "drawCircleHoleEnabled"]
+- !private ["s23CustomStringConvertibleP", "endDate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "lineWidth"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "setCircleColor"]
+- !private ["s23CustomStringConvertibleP", "setColor"]
+- !private ["s23CustomStringConvertibleP", "startDate"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "substring"]
+- !private ["s23CustomStringConvertibleP", "subtractingDays"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "values"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["10Foundation4DataV", "init"]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["10Foundation4DateV", "description"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["s9DecodableP", "Index"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "description"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "substring"]
+- !private ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "Index"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "description"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "substring"]
+- !private ["s9EquatableP", "Api"]
+- !private ["s9EquatableP", "Bundle"]
+- !private ["s9EquatableP", "ChartDataEntry"]
+- !private ["s9EquatableP", "Data"]
+- !private ["s9EquatableP", "Date"]
+- !private ["s9EquatableP", "Dictionary"]
+- ["s9EquatableP", "DisposeBag"]
+- !private ["s9EquatableP", "Double"]
+- !private ["s9EquatableP", "Index"]
+- !private ["s9EquatableP", "JSONSerialization"]
+- !private ["s9EquatableP", "LineChartData"]
+- !private ["s9EquatableP", "LineChartDataSet"]
+- !private ["s9EquatableP", "NSNumber"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "Variable"]
+- !private ["s9EquatableP", "ViewModel"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addDataSet"]
+- !private ["s9EquatableP", "addingDays"]
+- !private ["s9EquatableP", "bag"]
+- !private ["s9EquatableP", "blue"]
+- !private ["s9EquatableP", "bpiData"]
+- !private ["s9EquatableP", "bpiDateMap"]
+- !private ["s9EquatableP", "bpiHistoricalData"]
+- !private ["s9EquatableP", "circleRadius"]
+- !private ["s9EquatableP", "copy"]
+- !private ["s9EquatableP", "dateKey"]
+- !private ["s9EquatableP", "dateLabels"]
+- !private ["s9EquatableP", "days"]
+- !private ["s9EquatableP", "description"]
+- !private ["s9EquatableP", "doubleValue"]
+- !private ["s9EquatableP", "drawCircleHoleEnabled"]
+- !private ["s9EquatableP", "endDate"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "jsonObject"]
+- !private ["s9EquatableP", "lineWidth"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "mappedIfSafe"]
+- !private ["s9EquatableP", "mutableLeaves"]
+- !private ["s9EquatableP", "path"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "setCircleColor"]
+- !private ["s9EquatableP", "setColor"]
+- !private ["s9EquatableP", "startDate"]
+- !private ["s9EquatableP", "substring"]
+- !private ["s9EquatableP", "subtractingDays"]
+- !private ["s9EquatableP", "values"]
+- !private ["s9EquatableP", "white"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "mappedIfSafe"]
+- !private ["s25ExpressibleByArrayLiteralP", "mutableLeaves"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Index"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "substring"]
+- !private ["s25ExpressibleByFloatLiteralP", "doubleValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "Index"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "substring"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Index"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "substring"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "Api"]
+- !private ["s8HashableP", "Bundle"]
+- !private ["s8HashableP", "ChartDataEntry"]
+- !private ["s8HashableP", "Data"]
+- !private ["s8HashableP", "Date"]
+- !private ["s8HashableP", "Dictionary"]
+- ["s8HashableP", "DisposeBag"]
+- !private ["s8HashableP", "Double"]
+- !private ["s8HashableP", "Index"]
+- !private ["s8HashableP", "JSONSerialization"]
+- !private ["s8HashableP", "LineChartData"]
+- !private ["s8HashableP", "LineChartDataSet"]
+- !private ["s8HashableP", "NSNumber"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "Variable"]
+- !private ["s8HashableP", "ViewModel"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addDataSet"]
+- !private ["s8HashableP", "addingDays"]
+- !private ["s8HashableP", "bag"]
+- !private ["s8HashableP", "blue"]
+- !private ["s8HashableP", "bpiData"]
+- !private ["s8HashableP", "bpiDateMap"]
+- !private ["s8HashableP", "bpiHistoricalData"]
+- !private ["s8HashableP", "circleRadius"]
+- !private ["s8HashableP", "copy"]
+- !private ["s8HashableP", "dateKey"]
+- !private ["s8HashableP", "dateLabels"]
+- !private ["s8HashableP", "days"]
+- !private ["s8HashableP", "description"]
+- !private ["s8HashableP", "doubleValue"]
+- !private ["s8HashableP", "drawCircleHoleEnabled"]
+- !private ["s8HashableP", "endDate"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "jsonObject"]
+- !private ["s8HashableP", "lineWidth"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "path"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "setCircleColor"]
+- !private ["s8HashableP", "setColor"]
+- !private ["s8HashableP", "startDate"]
+- !private ["s8HashableP", "substring"]
+- !private ["s8HashableP", "subtractingDays"]
+- !private ["s8HashableP", "values"]
+- !private ["s8HashableP", "white"]
+- ["s8HashableP", ""]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "circleRadius"]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "drawCircleHoleEnabled"]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "init"]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "lineWidth"]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "setCircleColor"]
+- !private ["6Charts39IBarLineScatterCandleBubbleChartDataSetP", "setColor"]
+- !private ["6Charts13IChartDataSetP", "circleRadius"]
+- !private ["6Charts13IChartDataSetP", "drawCircleHoleEnabled"]
+- !private ["6Charts13IChartDataSetP", "init"]
+- !private ["6Charts13IChartDataSetP", "lineWidth"]
+- !private ["6Charts13IChartDataSetP", "setCircleColor"]
+- !private ["6Charts13IChartDataSetP", "setColor"]
+- !private ["6Charts17ILineChartDataSetP", "circleRadius"]
+- !private ["6Charts17ILineChartDataSetP", "drawCircleHoleEnabled"]
+- !private ["6Charts17ILineChartDataSetP", "init"]
+- !private ["6Charts17ILineChartDataSetP", "lineWidth"]
+- !private ["6Charts17ILineChartDataSetP", "setCircleColor"]
+- !private ["6Charts17ILineChartDataSetP", "setColor"]
+- !private ["6Charts22ILineRadarChartDataSetP", "circleRadius"]
+- !private ["6Charts22ILineRadarChartDataSetP", "drawCircleHoleEnabled"]
+- !private ["6Charts22ILineRadarChartDataSetP", "init"]
+- !private ["6Charts22ILineRadarChartDataSetP", "lineWidth"]
+- !private ["6Charts22ILineRadarChartDataSetP", "setCircleColor"]
+- !private ["6Charts22ILineRadarChartDataSetP", "setColor"]
+- !private ["6Charts35ILineScatterCandleRadarChartDataSetP", "circleRadius"]
+- !private ["6Charts35ILineScatterCandleRadarChartDataSetP", "drawCircleHoleEnabled"]
+- !private ["6Charts35ILineScatterCandleRadarChartDataSetP", "init"]
+- !private ["6Charts35ILineScatterCandleRadarChartDataSetP", "lineWidth"]
+- !private ["6Charts35ILineScatterCandleRadarChartDataSetP", "setCircleColor"]
+- !private ["6Charts35ILineScatterCandleRadarChartDataSetP", "setColor"]
+- !private ["SS5IndexV", "init"]
+- !private ["So17JSONSerializationC", "jsonObject"]
+- !private ["7RxCocoa16KVORepresentableP", "_getBuiltinLogicValue"]
+- !private ["6Charts13LineChartDataC", "addDataSet"]
+- !private ["6Charts13LineChartDataC", "init"]
+- !private ["6Charts16LineChartDataSetC", "circleRadius"]
+- !private ["6Charts16LineChartDataSetC", "drawCircleHoleEnabled"]
+- !private ["6Charts16LineChartDataSetC", "init"]
+- !private ["6Charts16LineChartDataSetC", "lineWidth"]
+- !private ["6Charts16LineChartDataSetC", "setCircleColor"]
+- !private ["6Charts16LineChartDataSetC", "setColor"]
+- !private ["6Charts21LineRadarChartDataSetC", "circleRadius"]
+- !private ["6Charts21LineRadarChartDataSetC", "drawCircleHoleEnabled"]
+- !private ["6Charts21LineRadarChartDataSetC", "lineWidth"]
+- !private ["6Charts21LineRadarChartDataSetC", "setCircleColor"]
+- !private ["6Charts21LineRadarChartDataSetC", "setColor"]
+- !private ["6Charts34LineScatterCandleRadarChartDataSetC", "circleRadius"]
+- !private ["6Charts34LineScatterCandleRadarChartDataSetC", "drawCircleHoleEnabled"]
+- !private ["6Charts34LineScatterCandleRadarChartDataSetC", "lineWidth"]
+- !private ["6Charts34LineScatterCandleRadarChartDataSetC", "setCircleColor"]
+- !private ["6Charts34LineScatterCandleRadarChartDataSetC", "setColor"]
+- !private ["s25LosslessStringConvertibleP", "Index"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "substring"]
+- !private ["s10MirrorPathP", "Index"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "substring"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "addingDays"]
+- !private ["So8NSCodingP", "blue"]
+- !private ["So8NSCodingP", "copy"]
+- !private ["So8NSCodingP", "days"]
+- !private ["So8NSCodingP", "doubleValue"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "substring"]
+- !private ["So8NSCodingP", "subtractingDays"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "addingDays"]
+- !private ["So9NSCopyingP", "blue"]
+- !private ["So9NSCopyingP", "copy"]
+- !private ["So9NSCopyingP", "days"]
+- !private ["So9NSCopyingP", "doubleValue"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "substring"]
+- !private ["So9NSCopyingP", "subtractingDays"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So6NSDateC", "addingDays"]
+- !private ["So6NSDateC", "copy"]
+- !private ["So6NSDateC", "days"]
+- !private ["So6NSDateC", "subtractingDays"]
+- !private ["So20NSFetchRequestResultP", "doubleValue"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So21NSItemProviderReadingP", "blue"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "substring"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "blue"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "substring"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "substring"]
+- !private ["So8NSNumberC", "doubleValue"]
+- !private ["So8NSNumberC", "init"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Api"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "ChartDataEntry"]
+- !private ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "Dictionary"]
+- ["So8NSObjectC", "DisposeBag"]
+- !private ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "JSONSerialization"]
+- ["So8NSObjectC", "LineChartData"]
+- !private ["So8NSObjectC", "LineChartDataSet"]
+- !private ["So8NSObjectC", "NSDate"]
+- !private ["So8NSObjectC", "NSNumber"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "Variable"]
+- !private ["So8NSObjectC", "ViewModel"]
+- !private ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "addDataSet"]
+- !private ["So8NSObjectC", "addingDays"]
+- ["So8NSObjectC", "bag"]
+- !private ["So8NSObjectC", "blue"]
+- ["So8NSObjectC", "bpiData"]
+- ["So8NSObjectC", "bpiDateMap"]
+- !private ["So8NSObjectC", "bpiHistoricalData"]
+- !private ["So8NSObjectC", "circleRadius"]
+- ["So8NSObjectC", "configDictionary"]
+- !private ["So8NSObjectC", "copy"]
+- ["So8NSObjectC", "dateKey"]
+- ["So8NSObjectC", "dateLabels"]
+- !private ["So8NSObjectC", "days"]
+- !private ["So8NSObjectC", "doubleValue"]
+- !private ["So8NSObjectC", "drawCircleHoleEnabled"]
+- ["So8NSObjectC", "endDate"]
+- ["So8NSObjectC", "getBpiData"]
+- ["So8NSObjectC", "graphData"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "lineWidth"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "setCircleColor"]
+- !private ["So8NSObjectC", "setColor"]
+- ["So8NSObjectC", "startDate"]
+- !private ["So8NSObjectC", "substring"]
+- !private ["So8NSObjectC", "subtractingDays"]
+- ["So8NSObjectC", "values"]
+- !private ["So8NSObjectC", "white"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "Api"]
+- !private ["So16NSObjectProtocolP", "Bundle"]
+- !private ["So16NSObjectProtocolP", "ChartDataEntry"]
+- !private ["So16NSObjectProtocolP", "Data"]
+- !private ["So16NSObjectProtocolP", "Date"]
+- !private ["So16NSObjectProtocolP", "Dictionary"]
+- ["So16NSObjectProtocolP", "DisposeBag"]
+- !private ["So16NSObjectProtocolP", "Double"]
+- !private ["So16NSObjectProtocolP", "JSONSerialization"]
+- !private ["So16NSObjectProtocolP", "LineChartData"]
+- !private ["So16NSObjectProtocolP", "LineChartDataSet"]
+- !private ["So16NSObjectProtocolP", "NSNumber"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "Variable"]
+- !private ["So16NSObjectProtocolP", "ViewModel"]
+- !private ["So16NSObjectProtocolP", "addDataSet"]
+- !private ["So16NSObjectProtocolP", "addingDays"]
+- !private ["So16NSObjectProtocolP", "bag"]
+- !private ["So16NSObjectProtocolP", "blue"]
+- !private ["So16NSObjectProtocolP", "bpiData"]
+- !private ["So16NSObjectProtocolP", "bpiDateMap"]
+- !private ["So16NSObjectProtocolP", "bpiHistoricalData"]
+- !private ["So16NSObjectProtocolP", "circleRadius"]
+- !private ["So16NSObjectProtocolP", "copy"]
+- !private ["So16NSObjectProtocolP", "dateKey"]
+- !private ["So16NSObjectProtocolP", "dateLabels"]
+- !private ["So16NSObjectProtocolP", "days"]
+- !private ["So16NSObjectProtocolP", "doubleValue"]
+- !private ["So16NSObjectProtocolP", "drawCircleHoleEnabled"]
+- !private ["So16NSObjectProtocolP", "endDate"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "jsonObject"]
+- !private ["So16NSObjectProtocolP", "lineWidth"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "path"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "setCircleColor"]
+- !private ["So16NSObjectProtocolP", "setColor"]
+- !private ["So16NSObjectProtocolP", "startDate"]
+- !private ["So16NSObjectProtocolP", "substring"]
+- !private ["So16NSObjectProtocolP", "subtractingDays"]
+- !private ["So16NSObjectProtocolP", "values"]
+- !private ["So16NSObjectProtocolP", "white"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "addingDays"]
+- !private ["So14NSSecureCodingP", "blue"]
+- !private ["So14NSSecureCodingP", "copy"]
+- !private ["So14NSSecureCodingP", "days"]
+- !private ["So14NSSecureCodingP", "doubleValue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "substring"]
+- !private ["So14NSSecureCodingP", "subtractingDays"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "substring"]
+- !private ["So7NSValueC", "doubleValue"]
+- !private ["s7NumericP", "init"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["s9OptionSetP", "mappedIfSafe"]
+- !private ["s9OptionSetP", "mutableLeaves"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "Index"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "substring"]
+- !private ["s16RawRepresentableP", "mappedIfSafe"]
+- !private ["s16RawRepresentableP", "mutableLeaves"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Api"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Bundle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "ChartDataEntry"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Data"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Date"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Dictionary"]
+- ["7RxSwift18ReactiveCompatibleP", "DisposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Double"]
+- !private ["7RxSwift18ReactiveCompatibleP", "JSONSerialization"]
+- !private ["7RxSwift18ReactiveCompatibleP", "LineChartData"]
+- !private ["7RxSwift18ReactiveCompatibleP", "LineChartDataSet"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSNumber"]
+- !private ["7RxSwift18ReactiveCompatibleP", "String"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "URL"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Variable"]
+- !private ["7RxSwift18ReactiveCompatibleP", "ViewModel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addDataSet"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addingDays"]
+- !private ["7RxSwift18ReactiveCompatibleP", "bag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "blue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "bpiData"]
+- !private ["7RxSwift18ReactiveCompatibleP", "bpiDateMap"]
+- !private ["7RxSwift18ReactiveCompatibleP", "bpiHistoricalData"]
+- !private ["7RxSwift18ReactiveCompatibleP", "circleRadius"]
+- !private ["7RxSwift18ReactiveCompatibleP", "copy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "dateKey"]
+- !private ["7RxSwift18ReactiveCompatibleP", "dateLabels"]
+- !private ["7RxSwift18ReactiveCompatibleP", "days"]
+- !private ["7RxSwift18ReactiveCompatibleP", "doubleValue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "drawCircleHoleEnabled"]
+- !private ["7RxSwift18ReactiveCompatibleP", "endDate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "jsonObject"]
+- !private ["7RxSwift18ReactiveCompatibleP", "lineWidth"]
+- !private ["7RxSwift18ReactiveCompatibleP", "main"]
+- !private ["7RxSwift18ReactiveCompatibleP", "path"]
+- !private ["7RxSwift18ReactiveCompatibleP", "print"]
+- !private ["7RxSwift18ReactiveCompatibleP", "responseJSON"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setCircleColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "startDate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "substring"]
+- !private ["7RxSwift18ReactiveCompatibleP", "subtractingDays"]
+- !private ["7RxSwift18ReactiveCompatibleP", "values"]
+- !private ["7RxSwift18ReactiveCompatibleP", "white"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["So17JSONSerializationC14ReadingOptionsV", "mutableLeaves"]
+- !private ["So6NSDataC14ReadingOptionsV", "mappedIfSafe"]
+- !private ["10Foundation20ReferenceConvertibleP", "description"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Alamofire6ResultO", "value"]
+- !private ["11RxAlamofire0aB7RequestP", "responseJSON"]
+- !private ["s8SequenceP", "Index"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "substring"]
+- !private ["s10SetAlgebraP", "mappedIfSafe"]
+- !private ["s10SetAlgebraP", "mutableLeaves"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "Index"]
+- !private ["SS", "init"]
+- !private ["SS", "substring"]
+- !private ["s14StringProtocolP", "Index"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "substring"]
+- !private ["s16TextOutputStreamP", "Index"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "substring"]
+- !private ["s20TextOutputStreamableP", "Index"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "substring"]
+- !private ["So7UIColorC", "blue"]
+- !private ["So7UIColorC", "white"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "Index"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "substring"]
+- !private ["7RxSwift8VariableC", "init"]
+- !private ["7RxSwift8VariableC", "value"]
+- ["9SampleApp9ViewModelC", "AnyObject"]
+- !private ["9SampleApp9ViewModelC", "Api"]
+- !private ["9SampleApp9ViewModelC", "Bundle"]
+- !private ["9SampleApp9ViewModelC", "ChartDataEntry"]
+- !private ["9SampleApp9ViewModelC", "Data"]
+- ["9SampleApp9ViewModelC", "Date"]
+- ["9SampleApp9ViewModelC", "Dictionary"]
+- ["9SampleApp9ViewModelC", "DisposeBag"]
+- !private ["9SampleApp9ViewModelC", "Double"]
+- !private ["9SampleApp9ViewModelC", "Float"]
+- !private ["9SampleApp9ViewModelC", "JSONSerialization"]
+- ["9SampleApp9ViewModelC", "LineChartData"]
+- !private ["9SampleApp9ViewModelC", "LineChartDataSet"]
+- !private ["9SampleApp9ViewModelC", "NSDate"]
+- !private ["9SampleApp9ViewModelC", "NSNumber"]
+- ["9SampleApp9ViewModelC", "String"]
+- !private ["9SampleApp9ViewModelC", "UIColor"]
+- !private ["9SampleApp9ViewModelC", "URL"]
+- ["9SampleApp9ViewModelC", "Variable"]
+- !private ["9SampleApp9ViewModelC", "ViewModel"]
+- !private ["9SampleApp9ViewModelC", "Void"]
+- !private ["9SampleApp9ViewModelC", "bag"]
+- ["9SampleApp9ViewModelC", "bpiData"]
+- !private ["9SampleApp9ViewModelC", "bpiDateMap"]
+- ["9SampleApp9ViewModelC", "configDictionary"]
+- !private ["9SampleApp9ViewModelC", "dateKey"]
+- ["9SampleApp9ViewModelC", "dateLabels"]
+- ["9SampleApp9ViewModelC", "deinit"]
+- ["9SampleApp9ViewModelC", "endDate"]
+- ["9SampleApp9ViewModelC", "getBpiData"]
+- ["9SampleApp9ViewModelC", "graphData"]
+- ["9SampleApp9ViewModelC", "init"]
+- !private ["9SampleApp9ViewModelC", "print"]
+- ["9SampleApp9ViewModelC", "startDate"]
+- !private ["9SampleApp9ViewModelC", "values"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "Index"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "substring"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Index"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "substring"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Index"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "substring"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Index"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "substring"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Index"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "substring"]
+- !private ["s26_ExpressibleByColorLiteralP", "blue"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "Index"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "substring"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "addingDays"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "copy"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "days"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "doubleValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "substring"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subtractingDays"]
+- !private ["s10_IndexableP", "Index"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s10_IndexableP", "substring"]
+- !private ["s14_IndexableBaseP", "Index"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["s14_IndexableBaseP", "substring"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Api"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChartDataEntry"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Dictionary"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DisposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LineChartData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LineChartDataSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Variable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addDataSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addingDays"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "blue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bpiData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bpiDateMap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bpiHistoricalData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "circleRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "copy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateLabels"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "days"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "drawCircleHoleEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lineWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setCircleColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "substring"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subtractingDays"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "values"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "Index"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "substring"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "Index"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "substring"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "Index"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "substring"]
+depends-nominal:
+- !private "9SampleApp3ApiC"
+- !private "Sa"
+- !private "6Charts38BarLineScatterCandleBubbleChartDataSetC"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "So6BundleC"
+- "s7CVarArgP"
+- !private "6Charts16ChartBaseDataSetC"
+- !private "6Charts9ChartDataC"
+- !private "6Charts14ChartDataEntryC"
+- !private "6Charts12ChartDataSetC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- !private "10Foundation4DateV"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "7RxSwift10DisposableP"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "Sd"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "6Charts39IBarLineScatterCandleBubbleChartDataSetP"
+- !private "6Charts13IChartDataSetP"
+- !private "6Charts17ILineChartDataSetP"
+- !private "6Charts22ILineRadarChartDataSetP"
+- !private "6Charts35ILineScatterCandleRadarChartDataSetP"
+- !private "SS5IndexV"
+- !private "So17JSONSerializationC"
+- !private "7RxCocoa16KVORepresentableP"
+- !private "6Charts13LineChartDataC"
+- !private "6Charts16LineChartDataSetC"
+- !private "6Charts21LineRadarChartDataSetC"
+- !private "6Charts34LineScatterCandleRadarChartDataSetC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDateC"
+- !private "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So7NSValueC"
+- !private "s7NumericP"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "So17JSONSerializationC14ReadingOptionsV"
+- !private "So6NSDataC14ReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "9Alamofire6ResultO"
+- !private "11RxAlamofire0aB7RequestP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So7UIColorC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "7RxSwift8VariableC"
+- "9SampleApp9ViewModelC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Modules/RxAlamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit+MessageUI.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DateTools-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriod.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+A2DynamicDelegate.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/A2DynamicDelegate.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+A2BlockDelegate.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriodChain.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/A2BlockInvocation.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+BKBlockObservation.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriodCollection.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+BKBlockExecution.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTTimePeriodGroup.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTError.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/NSDate+DateTools.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DateTools.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BKMacros.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSObject+BKAssociatedObjects.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Headers/DTConstants.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit+UIKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UITextField+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSCache+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIControl+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIBarButtonItem+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSInvocation+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSURLConnection+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIImagePickerController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIPopoverController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/MFMessageComposeViewController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/MFMailComposeViewController+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSTimer+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIGestureRecognizer+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSOrderedSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableOrderedSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSIndexSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableIndexSet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIActionSheet+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIView+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIWebView+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/UIAlertView+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSArray+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableArray+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSDictionary+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/NSMutableDictionary+BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Headers/BlocksKit.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/DateTools/DateTools.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Products/Debug-iphonesimulator/BlocksKit/BlocksKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+interface-hash: "8035b309e7d25676b2f593072be2bce3"

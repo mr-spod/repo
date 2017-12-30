@@ -1,0 +1,164 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewPortJob"
+provides-nominal:
+- "6Charts11ViewPortJobC"
+provides-member:
+- ["6Charts11ViewPortJobC", ""]
+provides-dynamic-lookup:
+- "doJob"
+- "point"
+- "transformer"
+- "view"
+- "viewPortHandler"
+- "xValue"
+- "yValue"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGPoint"
+- "ChartViewBase"
+- "Double"
+- "NSObject"
+- !private "StringLiteralType"
+- "Transformer"
+- "ViewPortHandler"
+- "ViewPortJob"
+depends-member:
+- ["SC7CGPointV", "init"]
+- ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "transformer"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewPortHandler"]
+- !private ["s7CVarArgP", "xValue"]
+- !private ["s7CVarArgP", "yValue"]
+- ["s7CVarArgP", ""]
+- ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "transformer"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewPortHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "xValue"]
+- !private ["s28CustomDebugStringConvertibleP", "yValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "transformer"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewPortHandler"]
+- !private ["s23CustomStringConvertibleP", "xValue"]
+- !private ["s23CustomStringConvertibleP", "yValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "CGPoint"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "transformer"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewPortHandler"]
+- !private ["s9EquatableP", "xValue"]
+- !private ["s9EquatableP", "yValue"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "CGPoint"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "transformer"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewPortHandler"]
+- !private ["s8HashableP", "xValue"]
+- !private ["s8HashableP", "yValue"]
+- ["s8HashableP", ""]
+- ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "ChartViewBase"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Transformer"]
+- ["So8NSObjectC", "ViewPortHandler"]
+- ["So8NSObjectC", "doJob"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "point"]
+- ["So8NSObjectC", "transformer"]
+- ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewPortHandler"]
+- ["So8NSObjectC", "xValue"]
+- ["So8NSObjectC", "yValue"]
+- ["So8NSObjectC", ""]
+- ["So16NSObjectProtocolP", "CGPoint"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "transformer"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewPortHandler"]
+- !private ["So16NSObjectProtocolP", "xValue"]
+- !private ["So16NSObjectProtocolP", "yValue"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["s12StaticStringV", "init"]
+- ["6Charts11ViewPortJobC", "CGPoint"]
+- ["6Charts11ViewPortJobC", "ChartViewBase"]
+- ["6Charts11ViewPortJobC", "Double"]
+- ["6Charts11ViewPortJobC", "Transformer"]
+- ["6Charts11ViewPortJobC", "ViewPortHandler"]
+- ["6Charts11ViewPortJobC", "deinit"]
+- ["6Charts11ViewPortJobC", "doJob"]
+- ["6Charts11ViewPortJobC", "init"]
+- ["6Charts11ViewPortJobC", "point"]
+- ["6Charts11ViewPortJobC", "transformer"]
+- ["6Charts11ViewPortJobC", "view"]
+- ["6Charts11ViewPortJobC", "viewPortHandler"]
+- ["6Charts11ViewPortJobC", "xValue"]
+- ["6Charts11ViewPortJobC", "yValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transformer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewPortHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "xValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "yValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "SC7CGPointV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s12StaticStringV"
+- "6Charts11ViewPortJobC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/seanodonnell/development/git-repos/swift/SampleApp/DerivedData/SampleApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+interface-hash: "177e96f65e3a444225ec6bd9e504d74c"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "d624876c1726320ca8cce271ff2d0e49"
+build_time: [1514157156, 461172000]
+inputs:
+  "/Users/seanodonnell/development/git-repos/swift/SampleApp/Pods/RxAlamofire/Sources/RxAlamofire.swift": [1513986209, 0]
