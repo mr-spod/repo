@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - Alamofire (4.6.0)
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
   - BlocksKit/All (2.2.5):
@@ -29,35 +30,56 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - Charts (3.0.4):
+    - Charts/Core (= 3.0.4)
+  - Charts/Core (3.0.4)
+  - DateTools (2.0.0)
   - Expecta (1.0.6)
   - KIF (3.6.0):
     - KIF/Core (= 3.6.0)
   - KIF/Core (3.6.0)
   - Nimble (7.0.3)
   - Quick (1.2.0)
+  - RxAlamofire (4.0.0):
+    - RxAlamofire/Core (= 4.0.0)
+  - RxAlamofire/Core (4.0.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
   - RxSwift (4.0.0)
   - Specta (1.0.7)
 
 DEPENDENCIES:
   - AFNetworking
+  - Alamofire
   - BlocksKit
+  - Charts
+  - DateTools
   - Expecta
   - KIF
   - Nimble
   - Quick
+  - RxAlamofire
+  - RxCocoa
   - RxSwift
   - Specta
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Charts: 0705898046257443f0afbbc3179f4b67507b6e48
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   KIF: bd770edd8ce49bc7308501e4871e58a02d137be3
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  RxAlamofire: 6ea579ac53bf14cb4bc7049a3866e5a769989b1d
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
   RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: 2661a2bea5ea379cda2758739a92806744cd2313
+PODFILE CHECKSUM: a8525341f23db2932ff55f66194999d7849f6742
 
 COCOAPODS: 1.3.1
